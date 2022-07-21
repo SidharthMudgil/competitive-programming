@@ -116,7 +116,19 @@ A tree is non-linear and a hierarchical data structure consisting of a collectio
 ### Graph
 A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph. A Graph consists of a finite set of vertices(or nodes) and set of Edges which connect a pair of nodes.
 
-coming soon...
+##### Basic Operations:
+- **Add Edge −** Adds an edge between 2 vertices.
+- **Traverse −** Prints all the vertices and edges of the graph.
+
+##### Type:
+- **Undirected Graph -** Graph in which edges are not associated with any directions, It is bi-directional.
+- **Directed Graph -** Graph in which edges represents are associated with a direction, It is uni-directional.
+- **Weighted Graph -** Graph in which each edges have some weight.
+
+##### Implementation:
+- [Implementation using Adjacency Matrix](https://github.com/SidharthMudgil/competitive-programming/blob/main/graph/graph-using-adjacency-matrix.cpp)
+- [Implementation using Adjacency List](https://github.com/SidharthMudgil/competitive-programming/blob/main/graph/graph-using-adjacency-list.cpp)
+
 
 ## Algorithms
 coming soon...
