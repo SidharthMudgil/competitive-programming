@@ -26,8 +26,8 @@ An array stores a collection of items at adjoining memory locations. Items that 
 - **Traverse -** Print all the elements.
 
 ##### Type:
-- [**1D Array**](https://github.com/SidharthMudgil/competitive-programming/blob/main/array/array.cpp) **-** Store a single list of the element of a similar data type.
-- [**2D Array**](https://github.com/SidharthMudgil/competitive-programming/blob/main/array/array2d.cpp) **-** Store a ‘list of lists’ of the element of a similar data type.
+- [**1D Array**](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp) **-** Store a single list of the element of a similar data type.
+- [**2D Array**](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array2d.cpp) **-** Store a ‘list of lists’ of the element of a similar data type.
 
 ### Linked List
 A linked list stores a collection of items in a linear order. Each element, or node, in a linked list contains a data item, as well as a reference, or link, to the next item in the list. Linked list data structures are a set of nodes that contain data and the address or a pointer to the next node.
@@ -46,25 +46,25 @@ A linked list stores a collection of items in a linear order. Each element, or n
 
 ##### Type:
 - **Singly Linked List -** Linked List in which each node contains a key and a pointer to the next node of same data type. It allows traversal in only one way. 
-    - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/singly%20linked%20list/insertion.cpp)
-    - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/singly%20linked%20list/deletion.cpp)
-    - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/singly%20linked%20list/searching.cpp)
-    - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/singly%20linked%20list/traversal.cpp)
+    - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/singly%20linked%20list/insertion.cpp)
+    - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/singly%20linked%20list/deletion.cpp)
+    - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/singly%20linked%20list/searching.cpp)
+    - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/singly%20linked%20list/traversal.cpp)
 - **Doubly Linked List -** Linked List in which each node contains a key and a pointer to the next node as well as a pointer to the previous node both of same data types. It allows traversal in two ways. 
-    - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/doubly%20linked%20list/insertion.cpp)
-    - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/doubly%20linked%20list/deletion.cpp)
-    - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/doubly%20linked%20list/searching.cpp)
-    - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/doubly%20linked%20list/traversal.cpp)
+    - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/doubly%20linked%20list/insertion.cpp)
+    - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/doubly%20linked%20list/deletion.cpp)
+    - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/doubly%20linked%20list/searching.cpp)
+    - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/doubly%20linked%20list/traversal.cpp)
 - **Circular Linked List -** Singly Linked List in which the last node contains a pointer to the first node i.e. head.
-    - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/circular%20linked%20list/insertion.cpp)
-    - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/circular%20linked%20list/deletion.cpp)
-    - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/circular%20linked%20list/searching.cpp)
-    - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/circular%20linked%20list/traversal.cpp)
+    - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20linked%20list/insertion.cpp)
+    - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20linked%20list/deletion.cpp)
+    - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20linked%20list/searching.cpp)
+    - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20linked%20list/traversal.cpp)
 - **Circular Doubly Linked List -** Doubly linked list in which the first node contains a pointer to the last node and the last node contains a pointer to the first node.
-    - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/circular%20doubly%20linked%20list/insertion.cpp)
-    - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/circular%20doubly%20linked%20list/deletion.cpp)
-    - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/circular%20doubly%20linked%20list/searching.cpp)
-    - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/linked%20list/circular%20doubly%20linked%20list/traversal.cpp)
+    - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20doubly%20linked%20list/insertion.cpp)
+    - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20doubly%20linked%20list/deletion.cpp)
+    - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20doubly%20linked%20list/searching.cpp)
+    - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20doubly%20linked%20list/traversal.cpp)
 
 ### Stack
 A stack is a linear data structure that follows the principle of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first. You can think of the stack data structure as the pile of plates on top of another.
@@ -73,8 +73,8 @@ A stack is a linear data structure that follows the principle of Last In First O
 - **pop -** Removes an item from the stack.
 - **peek -** Gets the item at the top of the stack without removing it.
 ##### Implementation:
-- [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/stack/stack-using-array.cpp)
-- [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/stack/stack-using-linked-list.cpp)
+- [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/stack/stack-using-array.cpp)
+- [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/stack/stack-using-linked-list.cpp)
 
 ### Queue
 A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first.
@@ -84,17 +84,17 @@ A Queue is a linear structure which follows a particular order in which the oper
 - **peek -** Gets the item at the front of the queue without removing it.
 ##### Type:
 - **Linear Queue -** Operations are performed based on FIFO principle.
-    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/queue/linear%20queue/queue-using-array.cpp)
-    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/queue/linear%20queue/queue-using-linked-list.cpp)
+    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/linear%20queue/queue-using-array.cpp)
+    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/linear%20queue/queue-using-linked-list.cpp)
 - **Circular Queue -** Linear Queue in which the last position is connected to the first position to make a circle.
-    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/queue/circular%20queue/cq-using-array.cpp)
-    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/queue/circular%20queue/cq-using-linked-list.cpp)
+    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/circular%20queue/cq-using-array.cpp)
+    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/circular%20queue/cq-using-linked-list.cpp)
 - **Deque -** Operations can be performed from either ends of the queue.
-    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/queue/deque/deque-using-array.cpp)
-    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/queue/deque/deque-using-linked-list.cpp)
+    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/deque/deque-using-array.cpp)
+    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/deque/deque-using-linked-list.cpp)
 - **Priority Queue -** Queue where each item has a priority and the item with highest priority will always be retrieved first.
-    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/queue/priority%20queue/pq-using-array.cpp)
-    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/queue/priority%20queue/pq-using-linked-list.cpp)
+    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/priority%20queue/pq-using-array.cpp)
+    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/priority%20queue/pq-using-linked-list.cpp)
 
 ### Tree
 A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the “children”). This data structure is a specialized method to organize and store data in the computer to be used more effectively.
@@ -105,13 +105,13 @@ A tree is non-linear and a hierarchical data structure consisting of a collectio
 - **Traversal -** Prints all the keys present in the tree.
 ##### Type:
 - **Binary Tree -** Tree in which a node can have maximum of 2 childs.
-    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/tree/binary%20tree/binary-tree-using-array.cpp)
-    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/tree/binary%20tree/binary-tree-using-linked-list.cpp)
+    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20tree/binary-tree-using-array.cpp)
+    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20tree/binary-tree-using-linked-list.cpp)
 - **Binary Search Tree -** Binary tree in which the left child value of a node should be less than or equal to the parent value, and the right child value should always be greater than or equal to the parent's value.
-    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/tree/binary%20search%20tree/bstree-using-array.cpp)
-    - [List Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/tree/binary%20search%20tree/bstree-using-linked-list.cpp)
-- [**AVL Tree**](https://github.com/SidharthMudgil/competitive-programming/blob/main/tree/avl%20tree/avl-tree.cpp) **-** It is a self balancing binary search tree, In which the correct balance factor are -1, 0 and 1.
-- [**BTree**](https://github.com/SidharthMudgil/competitive-programming/blob/main/tree/btree/btree.cpp) **-** A specialized m-way tree in which a node can have at most m-1 keys and m children.
+    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20search%20tree/bstree-using-array.cpp)
+    - [List Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20search%20tree/bstree-using-linked-list.cpp)
+- [**AVL Tree**](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/avl%20tree/avl-tree.cpp) **-** It is a self balancing binary search tree, In which the correct balance factor are -1, 0 and 1.
+- [**BTree**](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/btree/btree.cpp) **-** A specialized m-way tree in which a node can have at most m-1 keys and m children.
 
 ### Graph
 A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph. A Graph consists of a finite set of vertices(or nodes) and set of Edges which connect a pair of nodes.
@@ -126,8 +126,8 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 - **Weighted Graph -** Graph in which each edges have some weight.
 
 ##### Implementation:
-- [Implementation using Adjacency Matrix](https://github.com/SidharthMudgil/competitive-programming/blob/main/graph/graph-using-adjacency-matrix.cpp)
-- [Implementation using Adjacency List](https://github.com/SidharthMudgil/competitive-programming/blob/main/graph/graph-using-adjacency-list.cpp)
+- [Implementation using Adjacency Matrix](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/graph/graph-using-adjacency-matrix.cpp)
+- [Implementation using Adjacency List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/graph/graph-using-adjacency-list.cpp)
 
 
 ## Algorithms
