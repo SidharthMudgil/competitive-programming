@@ -1,5 +1,5 @@
 # Competitive Programming
-_I don't like all this, But I don't know why companies only prefer this. Thats the reason only_
+_🤔🤔_
 ## Table of Contents
 - [Data Structures](#data-structures)
     - [Array](#array)
