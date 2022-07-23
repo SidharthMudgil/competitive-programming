@@ -134,6 +134,5 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 
 
 ## Algorithms
-### Fast Exponentiation Method
-### 2k-ary Method
-### Euclidean GCD
+=======
+coming soon...
