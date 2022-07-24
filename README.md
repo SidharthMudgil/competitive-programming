@@ -12,6 +12,10 @@ _🤔🤔_
     - [Fast Exponentiation Method](#fast-exponentiation-method)
     - [2k-ary Method](#2k-ary-method)
     - [Euclidean GCD](#euclidean-gcd)
+    - [Greedy Algorithms]()
+    - [Dynamic Programming]()
+    - [Divide and conquer]()
+    - [Randomized Algorithms]()
 
 ## Data Structures
 A data structure is a specialized format for organizing, processing, retrieving and storing data. There are several basic and advanced types of data structures, all designed to arrange data to suit a specific purpose. Data structures make it easy for users to access and work with the data they need in appropriate ways. Most importantly, data structures frame the organization of information so that machines and humans can better understand it.
@@ -134,6 +138,4 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 
 
 ## Algorithms
-### Fast Exponentiation Method
-### 2k-ary Method
-### Euclidean GCD
+loading...
