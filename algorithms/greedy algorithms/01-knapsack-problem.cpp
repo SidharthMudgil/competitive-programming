@@ -29,7 +29,7 @@ void fill_knapsack(std::vector<std::pair<int, int>> items, int capacity)
 
 int main()
 {
-    std::vector<std::pair<int, int>> items = {{4, 5}, {1, 4}, {3, 5}, {6, 7}, {8, 8}};
+    std::vector<std::pair<int, int>> items = {{4, 5}, {1, 4}, {3, 5}, {6, 7}, {8, 5}};
     fill_knapsack(items, 20);
     return 0;
 }

@@ -27,21 +27,31 @@ public:
 
     void remove(int pos)
     {
-        int j = pos;
-        size--;
-
-        while (j < size)
+        if (size == 0)
+            cout << "array empty" << endl;
+        else
         {
-            arr[j] = arr[j + 1];
-            j++;
+            int j = pos;
+            size--;
+
+            while (j < size)
+            {
+                arr[j] = arr[j + 1];
+                j++;
+            }
+            arr[j] = -1;
         }
-        arr[j] = -1;
     }
 
-    void update(int val, int pos)
+    void update(int pos, int val)
     {
-        cout << arr[pos] << " changed to " << val << endl;;
-        arr[pos] = val;
+        if (pos < size)
+        {
+            cout << arr[pos] << " changed to " << val << endl;
+            arr[pos] = val;
+        }
+        else
+            cout << "index out of bound" << endl;
     }
 
     void search(int target)
