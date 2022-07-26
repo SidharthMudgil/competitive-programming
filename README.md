@@ -9,13 +9,11 @@ _🤔🤔_
     - [Tree](#tree)
     - [Graph](#graph)
 - [Algorithms](#algorithms)
-    - [Fast Exponentiation Method](#fast-exponentiation-method)
-    - [2k-ary Method](#2k-ary-method)
-    - [Euclidean GCD](#euclidean-gcd)
-    - [Greedy Algorithms]()
-    - [Dynamic Programming]()
-    - [Divide and conquer]()
-    - [Randomized Algorithms]()
+    - [Exponentiation by Squaring](#exponentiation-by-squaring)
+    - [Greedy Algorithms](#greedy-algorithms)
+    - [Dynamic Programming](#dynamic-programming)
+    - [Divide and conquer](#divide-and-conquer)
+    - [Randomized Algorithms](#randomized-algorithms)
 
 ## Data Structures
 A data structure is a specialized format for organizing, processing, retrieving and storing data. There are several basic and advanced types of data structures, all designed to arrange data to suit a specific purpose. Data structures make it easy for users to access and work with the data they need in appropriate ways. Most importantly, data structures frame the organization of information so that machines and humans can better understand it.
@@ -138,4 +136,16 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 
 
 ## Algorithms
-loading...
+### Exponentiation by Squaring
+- [**Fast Exponentiation Method**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/fast-exponentiation-method.cpp)
+- [**2k-Ary Method**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/2k-ary-method.cpp)
+
+### Greedy Algorithms
+- [**01 Knapsack Problem**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/greedy%20algorithms/01-knapsack-problem.cpp)
+- [**Fractional Knapsack Problem**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/greedy%20algorithms/fractional-knapsack-problem.cpp)
+- [**Activation Selection Problem**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/greedy%20algorithms/activation-selection-problem.cpp)
+- [**Job Sequencing Problem**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/greedy%20algorithms/job-sequencing-problem.cpp)
+
+### Dynamic Programming
+### Divide and conquer
+### Randomized Algorithms
