@@ -9,11 +9,11 @@ _🤔🤔_
     - [Tree](#tree)
     - [Graph](#graph)
 - [Algorithms](#algorithms)
-    - [Exponentiation by Squaring](#exponentiation-by-squaring)
     - [Greedy Algorithms](#greedy-algorithms)
     - [Dynamic Programming](#dynamic-programming)
     - [Divide and conquer](#divide-and-conquer)
     - [Randomized Algorithms](#randomized-algorithms)
+    - [Other](#other)
 
 ## Data Structures
 A data structure is a specialized format for organizing, processing, retrieving and storing data. There are several basic and advanced types of data structures, all designed to arrange data to suit a specific purpose. Data structures make it easy for users to access and work with the data they need in appropriate ways. Most importantly, data structures frame the organization of information so that machines and humans can better understand it.
