@@ -136,10 +136,6 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 
 
 ## Algorithms
-### Exponentiation by Squaring
-- [**Fast Exponentiation Method**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/fast-exponentiation-method.cpp)
-- [**2k-Ary Method**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/2k-ary-method.cpp)
-
 ### Greedy Algorithms
 - [**01 Knapsack Problem**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/greedy%20algorithms/01-knapsack-problem.cpp)
 - [**Fractional Knapsack Problem**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/greedy%20algorithms/fractional-knapsack-problem.cpp)
@@ -149,3 +145,8 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 ### Dynamic Programming
 ### Divide and conquer
 ### Randomized Algorithms
+
+### Other
+- [**Fast Exponentiation Method**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/fast-exponentiation-method.cpp)
+- [**2k-Ary Method**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/2k-ary-method.cpp)
+
