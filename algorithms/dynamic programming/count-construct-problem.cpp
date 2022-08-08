@@ -12,7 +12,7 @@ std::string remove_substr(std::string str, std::string substr)
     return str;
 }
 
-int can_construct(std::string target, std::vector<std::string> words, std::map<std::string, int> &memo)
+int count_construct(std::string target, std::vector<std::string> words, std::map<std::string, int> &memo)
 {
     if (memo.find(target) != memo.end())
         return memo[target];
@@ -26,7 +26,7 @@ int can_construct(std::string target, std::vector<std::string> words, std::map<s
         std::string remain = remove_substr(target, word);
         if (remain != target)
         {
-            int count = can_construct(remain, words, memo);
+            int count = count_construct(remain, words, memo);
             total += count;
             memo[target] = total;
         }
@@ -38,6 +38,6 @@ int can_construct(std::string target, std::vector<std::string> words, std::map<s
 int main()
 {
     std::map<std::string, int> memo = {};
-    std::cout << can_construct("aaaa", {"a", "aa", "aaa", "aaaa"}, memo);
+    std::cout << count_construct("aaaa", {"a", "aa", "aaa", "aaaa"}, memo);
     return 0;
 }
