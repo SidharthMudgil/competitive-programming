@@ -3,6 +3,7 @@
 
 ### VisualStudioCode ###
 .vscode/*
+**/.vscode/*
 
 # Compiled Object files
 *.slo
