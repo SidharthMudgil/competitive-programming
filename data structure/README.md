@@ -1,4 +1,11 @@
 ## Data Structures
+- [Array](#array)
+- [Linked List](#linked-list)
+- [Stack](#stack)
+- [Queue](#queue)
+- [Tree](#tree)
+- [Graph](#graph)
+    
 A data structure is a specialized format for organizing, processing, retrieving and storing data. There are several basic and advanced types of data structures, all designed to arrange data to suit a specific purpose. Data structures make it easy for users to access and work with the data they need in appropriate ways. Most importantly, data structures frame the organization of information so that machines and humans can better understand it.
 
 In computer science and computer programming, a data structure may be selected or designed to store data for the purpose of using it with various algorithms. In some cases, the algorithm's basic operations are tightly coupled to the data structure's design. Each data structure contains information about the data values, relationships between the data and -- in some cases -- functions that can be applied to the data.
