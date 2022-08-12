@@ -1,10 +1,23 @@
 ## Data Structures
 - [Array](#array)
+    - [Basic Operations](#basic-operation)
+    - [Type](#type)
 - [Linked List](#linked-list)
+    - [Basic Operations](#basic-operation-1)
+    - [Type](#type-1)
 - [Stack](#stack)
+    - [Basic Operations](#basic-operation-2)
+    - [Implementation](#implementation)
 - [Queue](#queue)
+    - [Basic Operations](#basic-operation-3)
+    - [Type](#type-2)
 - [Tree](#tree)
+    - [Basic Operations](#basic-operation-4)
+    - [Type](#type-3)
 - [Graph](#graph)
+    - [Basic Operations](#basic-operation-5)
+    - [Type](#type-4)
+    - [Implementation](#implementation-1)
     
 A data structure is a specialized format for organizing, processing, retrieving and storing data. There are several basic and advanced types of data structures, all designed to arrange data to suit a specific purpose. Data structures make it easy for users to access and work with the data they need in appropriate ways. Most importantly, data structures frame the organization of information so that machines and humans can better understand it.
 
