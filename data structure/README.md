@@ -47,8 +47,8 @@ A linked list stores a collection of items in a linear order. Each element, or n
 ##### Basic Operations:
 - Insertion:
     - **Insert After -** Adds an element after an item of the list.
-    - **Insert Start** Adds an element at the beginning of the list.
-    - **Insert End-** Adds an element at the end of the list.
+    - **Insert Start -** Adds an element at the beginning of the list.
+    - **Insert End -** Adds an element at the end of the list.
 - Deletion:
     - **Delete Node -** Removes an element from the list using key.
     - **Delete Start -** Removes an element from the start of the list.
@@ -58,25 +58,32 @@ A linked list stores a collection of items in a linear order. Each element, or n
 
 ##### Type:
 - **Singly Linked List -** Linked List in which each node contains a key and a pointer to the next node of same data type. It allows traversal in only one way. 
+- **Doubly Linked List -** Linked List in which each node contains a key and a pointer to the next node as well as a pointer to the previous node both of same data types. It allows traversal in two ways.
+- **Circular Linked List -** Singly Linked List in which the last node contains a pointer to the first node i.e. head.
+- **Circular Doubly Linked List -** Doubly linked list in which the first node contains a pointer to the last node and the last node contains a pointer to the first node.
+- 
+##### Implementation:
+- Singly Linked List
     - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/singly%20linked%20list/insertion.cpp)
     - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/singly%20linked%20list/deletion.cpp)
     - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/singly%20linked%20list/searching.cpp)
     - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/singly%20linked%20list/traversal.cpp)
-- **Doubly Linked List -** Linked List in which each node contains a key and a pointer to the next node as well as a pointer to the previous node both of same data types. It allows traversal in two ways. 
+- Doubly Linked List
     - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/doubly%20linked%20list/insertion.cpp)
     - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/doubly%20linked%20list/deletion.cpp)
     - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/doubly%20linked%20list/searching.cpp)
     - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/doubly%20linked%20list/traversal.cpp)
-- **Circular Linked List -** Singly Linked List in which the last node contains a pointer to the first node i.e. head.
+- Circular Linked List
     - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20linked%20list/insertion.cpp)
     - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20linked%20list/deletion.cpp)
     - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20linked%20list/searching.cpp)
     - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20linked%20list/traversal.cpp)
-- **Circular Doubly Linked List -** Doubly linked list in which the first node contains a pointer to the last node and the last node contains a pointer to the first node.
+- Circular Doubly Linked List
     - [Insertion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20doubly%20linked%20list/insertion.cpp)
     - [Deletion](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20doubly%20linked%20list/deletion.cpp)
     - [Searching](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20doubly%20linked%20list/searching.cpp)
     - [Traversal](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/linked%20list/circular%20doubly%20linked%20list/traversal.cpp)
+
 
 ### Stack
 A stack is a linear data structure that follows the principle of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first. You can think of the stack data structure as the pile of plates on top of another.
