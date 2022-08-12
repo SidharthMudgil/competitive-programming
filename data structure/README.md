@@ -34,8 +34,12 @@ An array stores a collection of items at adjoining memory locations. Items that 
 - **Traverse -** Print all the elements.
 
 ##### Type:
-- [**1D Array**](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp) **-** Store a single list of the element of a similar data type.
-- [**2D Array**](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array2d.cpp) **-** Store a ‘list of lists’ of the element of a similar data type.
+- **1D Array -** Store a single list of the element of a similar data type.
+- **2D Array -** Store a ‘list of lists’ of the element of a similar data type.
+
+##### Implementation:
+- [1D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp)
+- [2D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array2d.cpp)
 
 ### Linked List
 A linked list stores a collection of items in a linear order. Each element, or node, in a linked list contains a data item, as well as a reference, or link, to the next item in the list. Linked list data structures are a set of nodes that contain data and the address or a pointer to the next node.
