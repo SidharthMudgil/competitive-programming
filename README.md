@@ -147,6 +147,6 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 ### Randomized Algorithms
 
 ### Other
-- [**Fast Exponentiation Method**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/fast-exponentiation-method.cpp)
-- [**2k-Ary Method**](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/2k-ary-method.cpp)
+- [Fast Exponentiation Method](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/fast-exponentiation-method.cpp)
+- [2k-Ary Method](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/exponentiation%20by%20squaring/2k-ary-method.cpp)
 
