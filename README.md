@@ -145,14 +145,14 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 - [Job Sequencing Problem](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/greedy%20algorithms/job-sequencing-problem.cpp)
 
 ### Dynamic Programming
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [N Fibonacci Problem]()
+- [Grid Traveller Problem]()
+- [Can Sum Problem]()
+- [How Sum Problem]()
+- [Best Sum Problem]()
+- [Can Construct Problem]()
+- [How Construct Problem]()
+- [Best Construct Problem]()
 
 ### Divide and conquer
 ### Randomized Algorithms
