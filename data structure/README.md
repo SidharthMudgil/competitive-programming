@@ -26,18 +26,18 @@ In computer science and computer programming, a data structure may be selected o
 ### Array
 An array stores a collection of items at adjoining memory locations. Items that are the same type are stored together so the position of each element can be calculated or retrieved easily by an index. Arrays can be fixed or flexible in length. An array can hold a collection of integers, floating-point numbers, stings or even other arrays.
 
-##### Basic Operations
+##### Basic Operations:
 - **Insertion -** Adds an element at the given index.
 - **Deletion -** Removes an element at the given index.
 - **Update -** Updates an element at the given index.
 - **Search -** Searches an element using the value.
 - **Traverse -** Print all the elements.
 
-##### Type
+##### Type:
 - **1D Array -** Store a single list of the element of a similar data type.
 - **2D Array -** Store a ‘list of lists’ of the element of a similar data type.
 
-##### Implementation
+##### Implementation:
 - [1D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp)
 - [2D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array2d.cpp)
 
@@ -56,7 +56,7 @@ A linked list stores a collection of items in a linear order. Each element, or n
 - **Searching -** Searches an element in the list using key.
 - **Traversal -** Prints all the elements of the list.
 
-##### Type
+##### Type:
 - **Singly Linked List -** Linked List in which each node contains a key and a pointer to the next node of same data type. It allows traversal in only one way. 
 - **Doubly Linked List -** Linked List in which each node contains a key and a pointer to the next node as well as a pointer to the previous node both of same data types. It allows traversal in two ways.
 - **Circular Linked List -** Singly Linked List in which the last node contains a pointer to the first node i.e. head.
@@ -92,24 +92,24 @@ A stack is a linear data structure that follows the principle of Last In First O
 - **pop -** Removes an item from the stack.
 - **peek -** Gets the item at the top of the stack without removing it.
 ##### Implementation:
-- [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/stack/stack-using-array.cpp)
-- [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/stack/stack-using-linked-list.cpp)
+- [Using array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/stack/stack-using-array.cpp)
+- [Using linked list](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/stack/stack-using-linked-list.cpp)
 
 ### Queue
 A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO). A good example of a queue is any queue of consumers for a resource where the consumer that came first is served first.
 
-##### Basic Operations
+##### Basic Operations:
 - **enqueue -** Adds an iteme in the queue.
 - **dequeue -** Removes an item from the queue.
 - **peek -** Gets the item at the front of the queue without removing it.
 
-##### Type
+##### Type:
 - **Linear Queue -** Operations are performed based on FIFO principle.
 - **Circular Queue -** Linear Queue in which the last position is connected to the first position to make a circle.
 - **Deque -** Operations can be performed from either ends of the queue.
 - **Priority Queue -** Queue where each item has a priority and the item with highest priority will always be retrieved first.
 
-##### Implementation
+##### Implementation:
 - Using Array
     - [Linear Queue](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/linear%20queue/queue-using-array.cpp)
     - [Circular Queue](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/queue/circular%20queue/cq-using-array.cpp)
@@ -123,20 +123,29 @@ A Queue is a linear structure which follows a particular order in which the oper
 
 ### Tree
 A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the “children”). This data structure is a specialized method to organize and store data in the computer to be used more effectively.
-##### Basic Operations
+
+##### Basic Operations:
 - **Insertion -** Adds a node in the tree.
 - **Deletion -** Removes a node from the tree using key.
 - **Searching -** Searches a node in the tree using key.
 - **Traversal -** Prints all the keys present in the tree.
-##### Type
+
+##### Type:
 - **Binary Tree -** Tree in which a node can have maximum of 2 childs.
-    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20tree/binary-tree-using-array.cpp)
-    - [Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20tree/binary-tree-using-linked-list.cpp)
 - **Binary Search Tree -** Binary tree in which the left child value of a node should be less than or equal to the parent value, and the right child value should always be greater than or equal to the parent's value.
-    - [Implementation using Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20search%20tree/bstree-using-array.cpp)
-    - [List Implementation using Linked List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20search%20tree/bstree-using-linked-list.cpp)
-- [**AVL Tree**](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/avl%20tree/avl-tree.cpp) **-** It is a self balancing binary search tree, In which the correct balance factor are -1, 0 and 1.
-- [**BTree**](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/btree/btree.cpp) **-** A specialized m-way tree in which a node can have at most m-1 keys and m children.
+- **AVL Tree -** It is a self balancing binary search tree, In which the correct balance factor are -1, 0 and 1.
+- **BTree -** A specialized m-way tree in which a node can have at most m-1 keys and m children.
+
+##### Implementation:
+- Binary Tree
+    - [Using array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20tree/binary-tree-using-array.cpp)
+    - [Using linked list](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20tree/binary-tree-using-linked-list.cpp)
+- Binary Search Tree
+    - [Using array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20search%20tree/bstree-using-array.cpp)
+    - [Using linked list](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20search%20tree/bstree-using-linked-list.cpp)
+- [AVL Tree](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/avl%20tree/avl-tree.cpp)
+- [BTree](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/btree/btree.cpp)
+
 
 ### Graph
 A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph. A Graph consists of a finite set of vertices(or nodes) and set of Edges which connect a pair of nodes.
@@ -151,5 +160,5 @@ A Graph is a non-linear data structure consisting of nodes and edges. The nodes 
 - **Weighted Graph -** Graph in which each edges have some weight.
 
 ##### Implementation:
-- [Implementation using Adjacency Matrix](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/graph/graph-using-adjacency-matrix.cpp)
-- [Implementation using Adjacency List](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/graph/graph-using-adjacency-list.cpp)
+- [Using adjacency matrix](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/graph/graph-using-adjacency-matrix.cpp)
+- [Using adjacency list](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/graph/graph-using-adjacency-list.cpp)
