@@ -4,33 +4,36 @@ A data structure is a specialized format for organizing, processing, retrieving 
 In computer science and computer programming, a data structure may be selected or designed to store data for the purpose of using it with various algorithms. In some cases, the algorithm's basic operations are tightly coupled to the data structure's design. Each data structure contains information about the data values, relationships between the data and -- in some cases -- functions that can be applied to the data.
 
 - [Array](#array)
-    - [Basic Operations](#basic-operation)
-    - [Type](#type)
-    - [Implementation](#implementation)
 - [Linked List](#linked-list)
-    - [Basic Operations](#basic-operation-1)
-    - [Type](#type-1)
-    - [Implementation](#implementation-1)
 - [Stack](#stack)
-    - [Basic Operations](#basic-operation-2)
-    - [Implementation](#implementation-2)
 - [Queue](#queue)
-    - [Basic Operations](#basic-operation-3)
-    - [Type](#type-2)
-    - [Implementation](#implementation-3)
 - [Tree](#tree)
-    - [Basic Operations](#basic-operation-4)
-    - [Type](#type-3)
-    - [Implementation](#implementation-4)
 - [Graph](#graph)
-    - [Basic Operations](#basic-operation-5)
-    - [Type](#type-4)
-    - [Implementation](#implementation-5)
 
-<details>
-    <summary><h3>Array</h3></summary>
+### Array
 An array stores a collection of items at adjoining memory locations. Items that are the same type are stored together so the position of each element can be calculated or retrieved easily by an index. Arrays can be fixed or flexible in length. An array can hold a collection of integers, floating-point numbers, stings or even other arrays.
 
+<details>
+    <summary><h5>Basic Operations</h5></summary>
+    - **Insertion -** Adds an element at the given index.
+- **Deletion -** Removes an element at the given index.
+- **Update -** Updates an element at the given index.
+- **Search -** Searches an element using the value.
+- **Traverse -** Print all the elements.
+</details>
+
+<details>
+    <summary><h5>Type</h5></summary>
+    - **1D Array -** Store a single list of the element of a similar data type.
+- **2D Array -** Store a ‘list of lists’ of the element of a similar data type.
+
+</details>
+
+<details>
+    <summary><h5>Implementation</h5></summary>
+    - [1D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp)
+- [2D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array2d.cpp)
+</details>
 ##### Basic Operations:
 - **Insertion -** Adds an element at the given index.
 - **Deletion -** Removes an element at the given index.
@@ -45,7 +48,6 @@ An array stores a collection of items at adjoining memory locations. Items that 
 ##### Implementation:
 - [1D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp)
 - [2D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array2d.cpp)
-</details>
 
 ### Linked List
 A linked list stores a collection of items in a linear order. Each element, or node, in a linked list contains a data item, as well as a reference, or link, to the next item in the list. Linked list data structures are a set of nodes that contain data and the address or a pointer to the next node.
