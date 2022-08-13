@@ -27,7 +27,8 @@ In computer science and computer programming, a data structure may be selected o
     - [Type](#type-4)
     - [Implementation](#implementation-5)
 
-### Array
+<details>
+<summary>### Array</summary>
 An array stores a collection of items at adjoining memory locations. Items that are the same type are stored together so the position of each element can be calculated or retrieved easily by an index. Arrays can be fixed or flexible in length. An array can hold a collection of integers, floating-point numbers, stings or even other arrays.
 
 ##### Basic Operations:
@@ -44,6 +45,7 @@ An array stores a collection of items at adjoining memory locations. Items that 
 ##### Implementation:
 - [1D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp)
 - [2D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array2d.cpp)
+</details>
 
 ### Linked List
 A linked list stores a collection of items in a linear order. Each element, or node, in a linked list contains a data item, as well as a reference, or link, to the next item in the list. Linked list data structures are a set of nodes that contain data and the address or a pointer to the next node.
