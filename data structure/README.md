@@ -13,27 +13,6 @@ In computer science and computer programming, a data structure may be selected o
 ### Array
 An array stores a collection of items at adjoining memory locations. Items that are the same type are stored together so the position of each element can be calculated or retrieved easily by an index. Arrays can be fixed or flexible in length. An array can hold a collection of integers, floating-point numbers, stings or even other arrays.
 
-<details>
-    <summary><h5>Basic Operations</h5></summary>
-    
-- **Insertion -** Adds an element at the given index.
-- **Deletion -** Removes an element at the given index.
-- **Update -** Updates an element at the given index.
-- **Search -** Searches an element using the value.
-- **Traverse -** Print all the elements.
-</details>
-<details>
-    <summary><h5>Type</h5></summary>
-    
-- **1D Array -** Store a single list of the element of a similar data type.
-- **2D Array -** Store a ‘list of lists’ of the element of a similar data type.
-</details>
-<details>
-    <summary><h5>Implementation</h5></summary>
-    
-- [1D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp)
-- [2D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array2d.cpp)
-</details>
 ##### Basic Operations:
 - **Insertion -** Adds an element at the given index.
 - **Deletion -** Removes an element at the given index.
