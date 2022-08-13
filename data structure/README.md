@@ -32,9 +32,6 @@ An array stores a collection of items at adjoining memory locations. Items that 
 
 ##### Basic Operations:
 <dl>
-  <dt>Insertion</dt>
-  <dd></dd>
-  
     <dt>Insertion</dt>
     <dd>Adds an element at the given index.</dd>
     
