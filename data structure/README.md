@@ -25,7 +25,8 @@ An array stores a collection of items at adjoining memory locations. Items that 
 
 <details>
     <summary><h5>Type</h5></summary>
-    - **1D Array -** Store a single list of the element of a similar data type.
+    
+- **1D Array -** Store a single list of the element of a similar data type.
 - **2D Array -** Store a ‘list of lists’ of the element of a similar data type.
 
 </details>
