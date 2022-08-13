@@ -31,22 +31,11 @@ In computer science and computer programming, a data structure may be selected o
 An array stores a collection of items at adjoining memory locations. Items that are the same type are stored together so the position of each element can be calculated or retrieved easily by an index. Arrays can be fixed or flexible in length. An array can hold a collection of integers, floating-point numbers, stings or even other arrays.
 
 ##### Basic Operations:
-<dl>
-    <dt>Insertion</dt>
-    <dd>Adds an element at the given index.</dd>
-    
-    <dt>Deletion</dt>
-    <dd>Removes an element at the given index.</dd>
-    
-    <dt>Update</dt>
-    <dd>Updates an element at the given index.</dd>
-    
-    <dt>Search</dt>
-    <dd>Searches an element using the value.</dd>
-    
-    <dt>Traverse</dt>
-    <dd>Print all the elements.</dd>
-</dl>
+- **Insertion -** Adds an element at the given index.
+- **Deletion -** Removes an element at the given index.
+- **Update -** Updates an element at the given index.
+- **Search -** Searches an element using the value.
+- **Traverse -** Print all the elements.
 
 ##### Type:
 - **1D Array -** Store a single list of the element of a similar data type.
