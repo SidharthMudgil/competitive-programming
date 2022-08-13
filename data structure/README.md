@@ -15,7 +15,8 @@ An array stores a collection of items at adjoining memory locations. Items that 
 
 <details>
     <summary><h5>Basic Operations</h5></summary>
-    - **Insertion -** Adds an element at the given index.
+    
+- **Insertion -** Adds an element at the given index.
 - **Deletion -** Removes an element at the given index.
 - **Update -** Updates an element at the given index.
 - **Search -** Searches an element using the value.
