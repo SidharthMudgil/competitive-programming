@@ -22,18 +22,16 @@ An array stores a collection of items at adjoining memory locations. Items that 
 - **Search -** Searches an element using the value.
 - **Traverse -** Print all the elements.
 </details>
-
 <details>
     <summary><h5>Type</h5></summary>
     
 - **1D Array -** Store a single list of the element of a similar data type.
 - **2D Array -** Store a ‘list of lists’ of the element of a similar data type.
-
 </details>
-
 <details>
     <summary><h5>Implementation</h5></summary>
-    - [1D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp)
+    
+- [1D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array.cpp)
 - [2D Array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/array/array2d.cpp)
 </details>
 ##### Basic Operations:
