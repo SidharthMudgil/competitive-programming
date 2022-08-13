@@ -28,7 +28,7 @@ In computer science and computer programming, a data structure may be selected o
     - [Implementation](#implementation-5)
 
 <details>
-<summary>### Array</summary>
+    <summary><h3>Array</h3></summary>
 An array stores a collection of items at adjoining memory locations. Items that are the same type are stored together so the position of each element can be calculated or retrieved easily by an index. Arrays can be fixed or flexible in length. An array can hold a collection of integers, floating-point numbers, stings or even other arrays.
 
 ##### Basic Operations:
