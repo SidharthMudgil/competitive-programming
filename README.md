@@ -1,7 +1,7 @@
 # Competitive Programming
 _🤔🤔_
 ## Table of Contents
-- [Data Structures](https://github.com/SidharthMudgil/competitive-programming/blob/8a6bdbdd76ad70510efd395f40d10f40bc48b649/data%20structure/README.md)
+- [Data Structures](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/README.md)
 - [Algorithms](#algorithms)
     - [Greedy Algorithms](#greedy-algorithms)
     - [Dynamic Programming](#dynamic-programming)
