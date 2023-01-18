@@ -9,3 +9,16 @@ SELECT name FROM Customer Where IFNULL(referee_id,0) <> 2;
 
 -- 183. Customers Who Never Order
 SELECT name as Customers FROM Customers WHERE id NOT IN (SELECT customerId from Orders);
+
+-- 1873. Calculate Special Bonus
+SELECT employee_id, salary * (employee_id % 2) * (name NOT LIKE 'm%') as bonus FROM Employees order by employee_id;
+
+SELECT employee_id, salary as bonus FROM Employees WHERE employee_id % 2 <> 1 AND name NOT LIKE 'm%'
+UNION
+SELECT employee_id, 0 as bonus FROM Employees WHERE employee_id % 2 = 0 OR name LIKE 'm%';
+
+-- 627. Swap Salary
+UPDATE Salary SET sex = CASE sex WHEN 'm' THEN 'f' ELSE 'm' END;
+
+-- 196. Delete Duplicate Emails
+DELETE P1 FROM Person P1, Person P2 WHERE P1.email = P2.email AND P1.id > P2.id;
