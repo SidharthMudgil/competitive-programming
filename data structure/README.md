@@ -125,12 +125,12 @@ A tree is non-linear and a hierarchical data structure consisting of a collectio
 
 ##### Implementation:
 - Binary Tree
-    - [Using array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20tree/binary-tree-using-array.cpp)
-    - [Using linked list](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20tree/binary-tree-using-linked-list.cpp)
+    - [Using array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/Binary/binary-tree-using-array.cpp)
+    - [Using linked list](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/Binary/binary-tree-using-linked-list.cpp)
 - Binary Search Tree
-    - [Using array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20search%20tree/bstree-using-array.cpp)
-    - [Using linked list](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/binary%20search%20tree/bstree-using-linked-list.cpp)
-- [AVL Tree](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/avl%20tree/avl-tree.cpp)
+    - [Using array](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/BST/bstree-using-array.cpp)
+    - [Using linked list](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/BST/bstree-using-linked-list.cpp)
+- [AVL Tree](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/AVL/avl-tree.cpp)
 - [BTree](https://github.com/SidharthMudgil/competitive-programming/blob/main/data%20structure/tree/btree/btree.cpp)
 
 
