@@ -10,6 +10,8 @@ _🤔🤔_
     - [Searching](#searching)
     - [Sorting](#sorting)
     - [Other](#other)
+- [Coding Patterns](#coding-patterns)
+- [Maths](#maths)
 
 ## Algorithms
 ### Greedy Algorithms
@@ -50,4 +52,8 @@ _🤔🤔_
 - [Euclidean GCD Algorithm](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/other/euclidean-gcd-algorithm.cpp)
 - [Karatsuba Algorithm](https://github.com/SidharthMudgil/competitive-programming/blob/main/algorithms/other/karatsuba-algorithm.cpp)
 
+## Coding Patterns
+soon...
 
+## Maths
+soon...
