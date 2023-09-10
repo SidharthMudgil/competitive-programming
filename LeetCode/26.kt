@@ -2,7 +2,7 @@
 // DATE: Saturday 09, Sep 2023
 // TASK: 26. Remove Duplicates from Sorted Array
 
-// Slower one
+// Using HashMap
 // class Solution {
 //     fun removeDuplicates(nums: IntArray): Int {
 //         val map = nums.groupBy{it}.mapValues{it.value.size}
