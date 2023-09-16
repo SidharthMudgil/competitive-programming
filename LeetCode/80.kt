@@ -15,35 +15,35 @@ class Solution {
 }
 
 // Using HashMap
-// class Solution {
-//     fun removeDuplicates(nums: IntArray): Int {
-//         val map = nums.groupBy{it}.mapValues{it.value.size}
-//         var k = 0;
+class Solution {
+    fun removeDuplicates(nums: IntArray): Int {
+        val map = nums.groupBy{it}.mapValues{it.value.size}
+        var k = 0;
         
-//         map.forEach { it, cnt ->
-//             for (i in 0 ..< minOf(2, cnt)) {
-//                 nums[k++] = it
-//             }
-//         }
+        map.forEach { it, cnt ->
+            for (i in 0 ..< minOf(2, cnt)) {
+                nums[k++] = it
+            }
+        }
 
-//         return k
-//     }
-// }
+        return k
+    }
+}
 
 // Another Solution
-// class Solution {
-//     fun removeDuplicates(nums: IntArray): Int {
-//         var k = 1
-//         for (i in 1 ..< nums.size) {
-//             when {
-//                 (i != nums.size - 1) && nums[i-1] == nums[i+1] -> {
+class Solution {
+    fun removeDuplicates(nums: IntArray): Int {
+        var k = 1
+        for (i in 1 ..< nums.size) {
+            when {
+                (i != nums.size - 1) && nums[i-1] == nums[i+1] -> {
 
-//                 }
-//                 else -> {
-//                     nums[k++] = nums[i]
-//                 }
-//             }
-//         }
-//         return k
-//     }
-// }
+                }
+                else -> {
+                    nums[k++] = nums[i]
+                }
+            }
+        }
+        return k
+    }
+}

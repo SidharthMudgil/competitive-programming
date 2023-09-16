@@ -26,25 +26,25 @@ class Solution {
 
 
 // Solution 1
-// class Solution {
-//     fun maxProfit(prices: IntArray): Int {
-//         var res = 0
-//         var prev = prices[0]
+class Solution {
+    fun maxProfit(prices: IntArray): Int {
+        var res = 0
+        var prev = prices[0]
 
-//         for (i in 1 ..< prices.size) {
-//             if (i == prices.size - 1) {
-//                 res += max(0, prices[i] - prev)
-//             }
-//             if (prices[i] < prev) {
-//                 prev = prices[i]
-//             } else {
-//                 if (i + 1 < prices.size && prices[i] > prices[i + 1]) {
-//                     res += prices[i] - prev
-//                     prev = prices[i + 1]
-//                 }
-//             }
-//         }
+        for (i in 1 ..< prices.size) {
+            if (i == prices.size - 1) {
+                res += max(0, prices[i] - prev)
+            }
+            if (prices[i] < prev) {
+                prev = prices[i]
+            } else {
+                if (i + 1 < prices.size && prices[i] > prices[i + 1]) {
+                    res += prices[i] - prev
+                    prev = prices[i + 1]
+                }
+            }
+        }
 
-//         return res
-//     }
-// }
+        return res
+    }
+}
