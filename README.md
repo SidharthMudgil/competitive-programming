@@ -1,7 +1,7 @@
 # Competitive Programming
 _🤔🤔_
 ## Table of Contents
-- [Data Structures](./data-structure/README.md)
+- [Data Structures](./data-structures/README.md)
 - [Algorithms](#algorithms)
     - [Greedy Algorithms](#greedy-algorithms)
     - [Dynamic Programming](#dynamic-programming)
