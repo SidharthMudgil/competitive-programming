@@ -51,25 +51,25 @@ A linked list stores a collection of items in a linear order. Each element, or n
 
 ##### Implementation:
 - Singly Linked List
-    - [Insertion](./linked%20list/singly%20linked%20list/insertion.cpp)
-    - [Deletion](./linked%20list/singly%20linked%20list/deletion.cpp)
-    - [Searching](./linked%20list/singly%20linked%20list/searching.cpp)
-    - [Traversal](./linked%20list/singly%20linked%20list/traversal.cpp)
+    - [Insertion](./linked-list/singly-linked-list/insertion.cpp)
+    - [Deletion](./linked-list/singly-linked-list/deletion.cpp)
+    - [Searching](./linked-list/singly-linked-list/searching.cpp)
+    - [Traversal](./linked-list/singly-linked-list/traversal.cpp)
 - Doubly Linked List
-    - [Insertion](./linked%20list/doubly%20linked%20list/insertion.cpp)
-    - [Deletion](./linked%20list/doubly%20linked%20list/deletion.cpp)
-    - [Searching](./linked%20list/doubly%20linked%20list/searching.cpp)
-    - [Traversal](./linked%20list/doubly%20linked%20list/traversal.cpp)
+    - [Insertion](./linked-list/doubly-linked-list/insertion.cpp)
+    - [Deletion](./linked-list/doubly-linked-list/deletion.cpp)
+    - [Searching](./linked-list/doubly-linked-list/searching.cpp)
+    - [Traversal](./linked-list/doubly-linked-list/traversal.cpp)
 - Circular Linked List
-    - [Insertion](./linked%20list/circular%20linked%20list/insertion.cpp)
-    - [Deletion](./linked%20list/circular%20linked%20list/deletion.cpp)
-    - [Searching](./linked%20list/circular%20linked%20list/searching.cpp)
-    - [Traversal](./linked%20list/circular%20linked%20list/traversal.cpp)
+    - [Insertion](./linked-list/circular-linked-list/insertion.cpp)
+    - [Deletion](./linked-list/circular-linked-list/deletion.cpp)
+    - [Searching](./linked-list/circular-linked-list/searching.cpp)
+    - [Traversal](./linked-list/circular-linked-list/traversal.cpp)
 - Circular Doubly Linked List
-    - [Insertion](./linked%20list/circular%20doubly%20linked%20list/insertion.cpp)
-    - [Deletion](./linked%20list/circular%20doubly%20linked%20list/deletion.cpp)
-    - [Searching](./linked%20list/circular%20doubly%20linked%20list/searching.cpp)
-    - [Traversal](./linked%20list/circular%20doubly%20linked%20list/traversal.cpp)
+    - [Insertion](./linked-list/circular-doubly-linked-list/insertion.cpp)
+    - [Deletion](./linked-list/circular-doubly-linked-list/deletion.cpp)
+    - [Searching](./linked-list/circular-doubly-linked-list/searching.cpp)
+    - [Traversal](./linked-list/circular-doubly-linked-list/traversal.cpp)
 
 
 ### Stack
@@ -98,15 +98,15 @@ A Queue is a linear structure which follows a particular order in which the oper
 
 ##### Implementation:
 - Using Array
-    - [Linear Queue](./queue/linear%20queue/queue-using-array.cpp)
-    - [Circular Queue](./queue/circular%20queue/cq-using-array.cpp)
+    - [Linear Queue](./queue/linear-queue/queue-using-array.cpp)
+    - [Circular Queue](./queue/circular-queue/cq-using-array.cpp)
     - [Deque](./queue/deque/deque-using-array.cpp)
-    - [Priority Queue](./queue/priority%20queue/pq-using-array.cpp)
+    - [Priority Queue](./queue/priority-queue/pq-using-array.cpp)
 - Using Linked List
-    - [Linear Queue](./queue/linear%20queue/queue-using-linked-list.cpp) 
-    - [Circular Queue](./queue/circular%20queue/cq-using-linked-list.cpp)
+    - [Linear Queue](./queue/linear-queue/queue-using-linked-list.cpp) 
+    - [Circular Queue](./queue/circular-queue/cq-using-linked-list.cpp)
     - [Deque](./queue/deque/deque-using-linked-list.cpp)
-    - [Priority Queue](./queue/priority%20queue/pq-using-linked-list.cpp)
+    - [Priority Queue](./queue/priority-queue/pq-using-linked-list.cpp)
 
 ### Tree
 A tree is non-linear and a hierarchical data structure consisting of a collection of nodes such that each node of the tree stores a value and a list of references to other nodes (the “children”). This data structure is a specialized method to organize and store data in the computer to be used more effectively.
@@ -125,12 +125,12 @@ A tree is non-linear and a hierarchical data structure consisting of a collectio
 
 ##### Implementation:
 - Binary Tree
-    - [Using array](./tree/Binary/binary-tree-using-array.cpp)
-    - [Using linked list](./tree/Binary/binary-tree-using-linked-list.cpp)
+    - [Using array](./tree/binary/binary-tree-using-array.cpp)
+    - [Using linked list](./tree/binary/binary-tree-using-linked-list.cpp)
 - Binary Search Tree
-    - [Using array](./tree/BST/bstree-using-array.cpp)
-    - [Using linked list](./tree/BST/bstree-using-linked-list.cpp)
-- [AVL Tree](./tree/AVL/avl-tree.cpp)
+    - [Using array](./tree/bst/bstree-using-array.cpp)
+    - [Using linked list](./tree/bst/bstree-using-linked-list.cpp)
+- [AVL Tree](./tree/avl/avl-tree.cpp)
 - [BTree](./tree/btree/btree.cpp)
 
 

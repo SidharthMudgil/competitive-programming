@@ -10,7 +10,6 @@ _🤔🤔_
     - [Searching](#searching)
     - [Sorting](#sorting)
     - [Other](#other)
-- [Coding Patterns](#coding-patterns)
 - [Maths for Programming](#maths-for-programming)
 - [Coding Solutions](#coding-solutions)
 
@@ -53,11 +52,13 @@ _🤔🤔_
 - [Euclidean GCD Algorithm](./algorithms/other/euclidean-gcd-algorithm.cpp)
 - [Karatsuba Algorithm](./algorithms/other/karatsuba-algorithm.cpp)
 
-## Coding Patterns
-soon...
 
 ## Maths for Programming
 soon...
 
 ## Coding Solutions
-- 
+- [CodeChef](./codechef/)
+- [Codeforces](./codeforces/)
+- [LeetCode](./leetcode/)
+- [HackerRank](./hackerrank/)
+- [SPOJ](./spoj/)
