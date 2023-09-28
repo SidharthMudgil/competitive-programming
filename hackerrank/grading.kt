@@ -5,9 +5,7 @@
 fun gradingStudents(grades: Array<Int>): Array<Int> {
     grades.forEachIndexed { i, v ->
         grades[i] = when {
-            v < 38  -> v
-            (v + 1) % 5 == 0 -> v + 1
-            (v + 2) % 5 == 0 -> v + 2
+            v > 37 && v % 5 > 2 -> v + (5 - v % 5)
             else -> v
         }
     }
