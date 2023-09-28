@@ -3,8 +3,13 @@
 // TASK: Min Max Sum
 
 fun miniMaxSum(arr: Array<Int>): Unit {
-    arr.sort()
-    val min = arr.take(4).sum()
-    val max = arr.takeLast(4).sum()
-    print("$min $max")
+    var min = Int.MAX_VALUE
+    var max = 0
+    var sum = 0L
+    for (number in arr){
+        sum += number
+        if (number < min) min = number
+        if (number > max) max = number
+    }
+    println("${sum - max} ${sum - min}")
 }
