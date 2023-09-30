@@ -61,9 +61,7 @@ UPDATE Salary SET sex = CASE sex WHEN 'm' THEN 'f' ELSE 'm' END;
 SELECT sell_date,
 		COUNT(DISTINCT(product)) AS num_sold, 
 		GROUP_CONCAT(DISTINCT product ORDER BY product ASC SEPARATOR ',') AS products
-FROM Activities
-GROUP BY sell_date
-ORDER BY sell_date ASC;
+FROM Activities GROUP BY sell_date ORDER BY sell_date ASC;
 ```
 
 ### 1527. Patients With a Condition
@@ -102,10 +100,8 @@ SELECT employee_id, 0 as bonus FROM Employees WHERE employee_id % 2 = 0 OR name 
 
 ### 1965. Employees With Missing Information
 ```sql
-SELECT employee_id FROM Employees 
-WHERE employee_id NOT IN (SELECT employee_id FROM Salaries)
+SELECT employee_id FROM Employees WHERE employee_id NOT IN (SELECT employee_id FROM Salaries)
 UNION
-SELECT employee_id FROM Salaries 
-WHERE employee_id NOT IN (SELECT employee_id FROM Employees)
+SELECT employee_id FROM Salaries WHERE employee_id NOT IN (SELECT employee_id FROM Employees)
 ORDER BY employee_id;
 ```

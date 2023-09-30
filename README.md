@@ -10,7 +10,7 @@ _🤔🤔_
     - [Searching](#searching)
     - [Sorting](#sorting)
     - [Other](#other)
-- [Maths for Programming](#maths-for-programming)
+- [Maths & Aptitude](#maths-and-aptitude)
 - [Coding Solutions](#coding-solutions)
 - [Interview Preparation](#interview-preparation)
 
@@ -54,8 +54,8 @@ _🤔🤔_
 - [Karatsuba Algorithm](./algorithms/other/karatsuba-algorithm.cpp)
 
 
-## Maths for Programming
-soon...
+## Maths and Aptitude
+Yet to studied
 
 ## Coding Solutions
 - [CodeChef](./codechef/)
