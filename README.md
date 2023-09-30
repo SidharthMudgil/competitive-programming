@@ -12,6 +12,7 @@ _🤔🤔_
     - [Other](#other)
 - [Maths for Programming](#maths-for-programming)
 - [Coding Solutions](#coding-solutions)
+- [Interview Preparation](#interview-preparation)
 
 ## Algorithms
 ### Greedy Algorithms
@@ -62,3 +63,6 @@ soon...
 - [LeetCode](./leetcode/)
 - [HackerRank](./hackerrank/)
 - [SPOJ](./spoj/)
+
+## Interview Preparation
+- [SQL](./SQL.md)
