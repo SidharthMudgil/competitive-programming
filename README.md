@@ -65,5 +65,7 @@ Yet to studied
 - [SPOJ](./spoj/)
 
 ## Interview Preparation
-- [OOPs](./OOPS.md)
-- [SQL](./SQL.md)
+- [Android Interview Guide](./ANDROID.md)
+- [Kotlin Interview Guide](./KOTLIN.md)
+- [OOPs Interview Guide](./OOPS.md)
+- [SQL Interview Guide](./SQL.md)
