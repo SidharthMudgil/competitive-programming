@@ -1,5 +1,8 @@
 # Competitive Programming
 _🤔🤔_
+
+Welcome to the Competitive Programming repository! This repository contains a collection of data structures, algorithms, coding solutions, and interview preparation guides aimed at helping programmers excel in competitive programming competitions.
+
 ## Table of Contents
 - [Data Structures](./data-structures/README.md)
 - [Algorithms](#algorithms)
@@ -53,11 +56,12 @@ _🤔🤔_
 - [Euclidean GCD Algorithm](./algorithms/other/euclidean-gcd-algorithm.cpp)
 - [Karatsuba Algorithm](./algorithms/other/karatsuba-algorithm.cpp)
 
-
 ## Maths and Aptitude
 Yet to studied
 
 ## Coding Solutions
+Explore our collection of coding solutions from various online programming platforms. Each directory contains solutions and explanations for problems from different platforms.
+
 - [CodeChef](./codechef/)
 - [Codeforces](./codeforces/)
 - [LeetCode](./leetcode/)
@@ -65,7 +69,15 @@ Yet to studied
 - [SPOJ](./spoj/)
 
 ## Interview Preparation
+Prepare for interviews in specific domains with our comprehensive interview guides. These guides cover various topics, including Android, Kotlin, Object-Oriented Programming (OOPs), and SQL.
+
 - [Android Interview Guide](./ANDROID.md)
 - [Kotlin Interview Guide](./KOTLIN.md)
 - [OOPs Interview Guide](./OOPS.md)
 - [SQL Interview Guide](./SQL.md)
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## How to Contribute
+Interested in contributing to this project? Please read our [Contribution Guidelines](CONTRIBUTING.md) to get started.
