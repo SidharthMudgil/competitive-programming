@@ -6,6 +6,12 @@ OpenSource operating system based on linux kernel primarily used for mobile devi
 >
 > Fragment is a modular section or part in an activity that is reusable and has its own lifecycle. We can combine multiple fragments to create an ui for a single screen
 
+### Activity Lifecycle
+![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/7d2d3efd-ec93-4f9f-b6b5-6359f524529b)
+
+### Fragment Lifecycle
+![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/ec306232-7cf0-4f98-b38a-c38d5426ee53)
+
 ### Intents
 > Messaging objects that are used to send data or perform some actions.
 
@@ -97,6 +103,12 @@ OpenSource operating system based on linux kernel primarily used for mobile devi
 > process where apps request specific permissions from the user while the app is running, typically in response to user actions, ensuring that sensitive device resources are accessed only with the user's explicit consent, enhancing security and privacy.
 
 ### MVVM
+> MVVM is an Architectural design pattern that is used to separate business logic and the presentation logic of the UI.
+> **Model:** 
+> **ViewModel:**
+> **View:**
+![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/17997910-5ed9-4f28-ad93-b034c745c858)
+
 
 ### Recycler Views
 
