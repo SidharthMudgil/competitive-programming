@@ -150,7 +150,8 @@ suspend fun download()
 ### JvmStatic, JvmField, and JvmOverloads
 > `@JvmStatic` is used to expose companion object members as static members in Java.
 >
-> . @JvmField is used to expose a Kotlin property as a Java field. This is particularly useful when you want to directly access a property without invoking its getter method from Java.
+> `@JvmField` is used to expose a Kotlin property as a Java field. This is particularly useful when you want to directly access a property without invoking its getter method from Java.
+> 
 > `@JvmOverloads` is used in Kotlin to instruct the compiler to generate multiple overloads for functions with default parameters. 
 ```kotlin
 > @JvmOverloads
