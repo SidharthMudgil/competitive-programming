@@ -18,6 +18,7 @@ Welcome to the Competitive Programming repository! This repository contains a co
 - [Interview Preparation](#interview-preparation)
 
 ## Algorithms
+Find solutions to common algorithmic problems, categorized by topics such as greedy algorithms, dynamic programming, searching, and sorting.
 ### Greedy Algorithms
 - [01 Knapsack Problem](./algorithms/greedy/01-knapsack-problem.cpp)
 - [Fractional Knapsack Problem](./algorithms/greedy/fractional-knapsack-problem.cpp)
@@ -60,7 +61,7 @@ Welcome to the Competitive Programming repository! This repository contains a co
 Yet to studied
 
 ## Coding Solutions
-Explore our collection of coding solutions from various online programming platforms. Each directory contains solutions and explanations for problems from different platforms.
+Access solutions to problems from popular coding platforms like CodeChef, Codeforces, LeetCode, HackerRank, and SPOJ. Each directory includes explanations for the problems
 
 - [CodeChef](./codechef/)
 - [Codeforces](./codeforces/)
@@ -69,7 +70,7 @@ Explore our collection of coding solutions from various online programming platf
 - [SPOJ](./spoj/)
 
 ## Interview Preparation
-Prepare for interviews in specific domains with our comprehensive interview guides. These guides cover various topics, including Android, Kotlin, Object-Oriented Programming (OOPs), and SQL.
+Interview Guides: Prepare for technical interviews with comprehensive guides on core topics such as Object-Oriented Programming (OOPs), database management (DBMS), Android, and Kotlin.
 
 - [Android Interview Guide](./ANDROID.md)
 - [Kotlin Interview Guide](./KOTLIN.md)
