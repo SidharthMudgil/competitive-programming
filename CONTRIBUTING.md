@@ -50,6 +50,20 @@ Contributing to this repository is straightforward. Here's how you can get invol
      git push origin feature/add-new-feature
      
 8. **Create a Pull Request**: Visit the original repository on GitHub and click the "New Pull Request" button. Describe your changes in the pull request, and submit it for review.
+   
+## Contribution Guidelines
+
+### Documentation Contributions
+
+We welcome documentation contributions. If you find any areas where the documentation can be improved or if you want to explain existing solutions in more detail, please feel free to contribute.
+
+### Algorithm Contributions
+
+We are open to contributions related to mathematical algorithms and their implementations in C++. If you have a new algorithm that you believe would be useful in competitive programming, please submit your code solution along with documentation.
+
+### Suggesting Important Questions
+
+If you have suggestions for important questions that should be included in the repository, please open a new discussion in the Discussions section. We encourage the community to share and discuss valuable questions and their solutions.
 
 ## Code Style
 
