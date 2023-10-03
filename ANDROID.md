@@ -95,3 +95,13 @@ OpenSource operating system based on linux kernel primarily used for mobile devi
 
 ### Runtime Permissions
 > process where apps request specific permissions from the user while the app is running, typically in response to user actions, ensuring that sensitive device resources are accessed only with the user's explicit consent, enhancing security and privacy.
+
+### MVVM
+
+### Recycler Views
+
+### Room Database
+
+### Retrofit
+
+### Dependency Injection
