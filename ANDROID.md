@@ -6,11 +6,9 @@ OpenSource operating system based on linux kernel primarily used for mobile devi
 >
 > Fragment is a modular section or part in an activity that is reusable and has its own lifecycle. We can combine multiple fragments to create an ui for a single screen
 
-### Activity Lifecycle
-![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/7d2d3efd-ec93-4f9f-b6b5-6359f524529b)
-
-### Fragment Lifecycle
-![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/ec306232-7cf0-4f98-b38a-c38d5426ee53)
+### Activity & Fragment Lifecycle
+| ![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/7d2d3efd-ec93-4f9f-b6b5-6359f524529b) | ![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/ec306232-7cf0-4f98-b38a-c38d5426ee53) |
+| ---------------- | --------------- |
 
 ### Intents
 > Messaging objects that are used to send data or perform some actions.
@@ -104,16 +102,29 @@ OpenSource operating system based on linux kernel primarily used for mobile devi
 
 ### MVVM
 > MVVM is an Architectural design pattern that is used to separate business logic and the presentation logic of the UI.
-> **Model:** 
-> **ViewModel:**
-> **View:**
+> **Model:** main logic of program that contains that and retrieved by the viewmodel.
+> **ViewModel:** defines properties and commands that can be used to bind data with views.
+> **View:** responsible for defining the layout, structure, and appearence of the UI.
 ![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/17997910-5ed9-4f28-ad93-b034c745c858)
 
-
 ### Recycler Views
+> Android UI component that allows us to create a scrolling list.
+> **Adapter:** adapters are used to adapt data for individual items. It binds data with the viewholders.
+> **ViewHolder:** helper class that draws layout for an individual items
+> **LayoutManager:** used to position items within recycler views.
+> **ItemAnimator:** class to change the animation for the recycler view.
 
 ### Room Database
+> Android library that is part of jetpack components used for persistent storage that is made on the top of SQLite database.
+> **Entity:** represents a table within database, and each field acts as a column.
+> **Dao:** interface that is used to define database operations such as insert, delete, etc.
+> **Database:** responsible for creating the database and provide dao associated with the database.
 
 ### Retrofit
+> HTTP Client for android applications that makes network requests, and api handling easy.
+> **ApiService:** interface that defines the API endpoints and their HTTP methods.
+> **Retrofit:** responsible for creating and configuring the HTTP client, defining the base URL for the API, and creating instances of API interfaces.
+> **Response:** class that represents the api response.
 
 ### Dependency Injection
+> Dependency injection is a programming technique that makes a class independent of its dependencies. It achieves that by decoupling the usage of an object from its creation.
