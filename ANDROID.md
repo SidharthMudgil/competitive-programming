@@ -24,9 +24,7 @@ OpenSource operating system based on linux kernel primarily used for mobile devi
 >
 > - **Started Service:** started using `startService` method and run even after closing the app.
 > - **Bound Service:** bind to an component lifecycle and stops when the component dies.
-
-### Foreground Service
-> Special type of services that have UI component that user can interact with.  They shows notification to the user.
+> - **Foreground Service:** Special type of services that have UI component that user can interact with.  They shows notification to the user.
 
 ### Broadcast & BroadcastReceivers
 > system wide events occurs on android devices that are broadcasted to every apps.
@@ -44,14 +42,14 @@ OpenSource operating system based on linux kernel primarily used for mobile devi
 > - **AAPT:** Android Asset Packaging Tool, is a command-line tool used to compile your app resources into a single binary file.
 > - **Emulator:** used to emulate real android devices in computer, it provide a virtual environment to run android apps.
 
-### Android Architecture
+### Android OS Architecture
 > - **Linux kernel:**  core of the Android system and provides the basic functionality, such as memory management, device drivers, and process scheduling.
 > - **Android runtime (ART):** runtime environment for running android apps.
 > - **Native libraries:** written in C or C++, providse low-level functionality, such as hardware access and graphics rendering.
 > - **Android libraries:** provide a set of APIs that developers can use to develop Android apps.
 > - **Android system apps:** pre-installed apps that come with every Android device.
 
-### Android Architecture
+### Android Application Architecture
 > 1. **Services**
 > 1. **Activities**
 > 1. **Fragments**
