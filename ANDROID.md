@@ -112,3 +112,26 @@ OpenSource operating system based on linux kernel primarily used for mobile devi
 
 ### Dependency Injection
 > Dependency injection is a programming technique that makes a class independent of its dependencies. It achieves that by decoupling the usage of an object from its creation.
+
+### Optimize Recycler View Performance
+> 1. Set a fixed width and height for images.
+> 2. Use image loading library like Glide, Coil.
+> 3. Do less work inside `onBindViewHolder`.
+> 4. If height of all items are equal set `hasFixedHeight` to `true`.
+> 5. Use `RecycledViewPool` if nested recycler views have common views.
+> 6. In case of the removal, the updation, the addition of item, use the Notify Item API.
+
+### Image Loading Library working
+> So generally we do not cancel tasks like downloading, bitmap decoding even when we even don't want them and that causes slow loading. To overcome this problem image loading libraries like Glide and other are aware of the lifecycle of activity/fragment and cancel all the tasks that are not visible and load only images that are visible to the user. Libraries know about the lifecycle because of the context passed. These libraries also down samples the image, for example for an image view 200x200 the library will downsample 2000x2000 to 200x200 so we can get image required by the view, It also helps with `OutOfMemoryError`.
+
+### Strict Mode
+> In android in order to maintain a smooth experience of the app we've to do network and disk task in background not in main thread but there may be some mistake by developer and some of those tasks are running on main thread, So in order to find such operations strict mode is used.
+> [Read this too](https://amitshekhar.me/blog/strictmode-in-android-development)
+
+### Dalvik vs ART
+| Dalvik | ART |
+| ----| ---- |
+| Just in Time (JIT) | Ahead of Time (AOT) |
+| dex code was converted into machine code when we start the app | dex code was converted into machine code during the installtion of app |
+| Low performance | High Performance |
+| Faster Installation | Slow installation |
