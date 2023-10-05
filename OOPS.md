@@ -1,9 +1,6 @@
 ## Object Oriented Programming
 Object oriented programming is programming model based on the concept of objects. It aims to implement real-world entities like inheritance, abstraction, etc. In OOPs the classes acts as blueprints while objects are instances of the blueprint that holds values. The main goal of the OOPs is code reusability.
-- [Basics](#basics)
-- [Interview Questions](#interview-questions)
 
-## Basics
 ### Classes & Objects
 > Classes are like blueprint for creating objects, They defines a set of attributes and methods for creating objects.
 >
@@ -114,7 +111,3 @@ fun main() {
   vak tv = TV()
 }
 ```
-
-
-## Interview Questions
-once I find something important I'll add here
