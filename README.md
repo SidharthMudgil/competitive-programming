@@ -1,5 +1,8 @@
 # Competitive Programming
 _🤔🤔_
+
+Welcome to the Competitive Programming repository! This repository contains a collection of data structures, algorithms, coding solutions, and interview preparation guides aimed at helping programmers excel in competitive programming competitions.
+
 ## Table of Contents
 - [Data Structures](./data-structures/README.md)
 - [Algorithms](#algorithms)
@@ -15,6 +18,7 @@ _🤔🤔_
 - [Interview Preparation](#interview-preparation)
 
 ## Algorithms
+Find solutions to common algorithmic problems, categorized by topics such as greedy algorithms, dynamic programming, searching, and sorting.
 ### Greedy Algorithms
 - [01 Knapsack Problem](./algorithms/greedy/01-knapsack-problem.cpp)
 - [Fractional Knapsack Problem](./algorithms/greedy/fractional-knapsack-problem.cpp)
@@ -53,11 +57,12 @@ _🤔🤔_
 - [Euclidean GCD Algorithm](./algorithms/other/euclidean-gcd-algorithm.cpp)
 - [Karatsuba Algorithm](./algorithms/other/karatsuba-algorithm.cpp)
 
-
 ## Maths and Aptitude
 Yet to studied
 
 ## Coding Solutions
+Access solutions to problems from popular coding platforms like CodeChef, Codeforces, LeetCode, HackerRank, and SPOJ. Each directory includes explanations for the problems
+
 - [CodeChef](./codechef/)
 - [Codeforces](./codeforces/)
 - [LeetCode](./leetcode/)
@@ -65,7 +70,15 @@ Yet to studied
 - [SPOJ](./spoj/)
 
 ## Interview Preparation
+Interview Guides: Prepare for technical interviews with comprehensive guides on core topics such as Object-Oriented Programming (OOPs), database management (DBMS), Android, and Kotlin.
+
 - [Android Interview Guide](./ANDROID.md)
 - [Kotlin Interview Guide](./KOTLIN.md)
 - [OOPs Interview Guide](./OOPS.md)
 - [SQL Interview Guide](./SQL.md)
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## How to Contribute
+Interested in contributing to this project? Please read our [Contribution Guidelines](CONTRIBUTING.md) to get started.

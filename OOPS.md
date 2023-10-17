@@ -1,9 +1,6 @@
 ## Object Oriented Programming
 Object oriented programming is programming model based on the concept of objects. It aims to implement real-world entities like inheritance, abstraction, etc. In OOPs the classes acts as blueprints while objects are instances of the blueprint that holds values. The main goal of the OOPs is code reusability.
-- [Basics](#basics)
-- [Interview Questions](#interview-questions)
 
-## Basics
 ### Classes & Objects
 > Classes are like blueprint for creating objects, They defines a set of attributes and methods for creating objects.
 >
@@ -15,7 +12,7 @@ Object oriented programming is programming model based on the concept of objects
 > By the name suggests, Inheritance allows classes to inherit all the attributes and methods of the parent class. The main goal of inheritance is code reusability.
 
 ### Polymorphism
-> It referes the ability of an object to be present in many forms. For example at a person can be both Father and Son for 2 different person. As in above below we can see that objects of both Son and Daughter can be treated as an object of Father class
+> It referes the ability of an object to be present in many forms. For example at a time person can be both Father and Son for 2 different person. As in above below we can see that objects of both Son and Daughter can be treated as an object of Father class
 ``` kotlin
 open class Father {
   open fun greetings() = print("Hi Son!")
@@ -114,7 +111,3 @@ fun main() {
   vak tv = TV()
 }
 ```
-
-
-## Interview Questions
-once I find something important I'll add here

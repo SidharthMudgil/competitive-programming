@@ -150,7 +150,8 @@ suspend fun download()
 ### JvmStatic, JvmField, and JvmOverloads
 > `@JvmStatic` is used to expose companion object members as static members in Java.
 >
-> . @JvmField is used to expose a Kotlin property as a Java field. This is particularly useful when you want to directly access a property without invoking its getter method from Java.
+> `@JvmField` is used to expose a Kotlin property as a Java field. This is particularly useful when you want to directly access a property without invoking its getter method from Java.
+> 
 > `@JvmOverloads` is used in Kotlin to instruct the compiler to generate multiple overloads for functions with default parameters. 
 ```kotlin
 > @JvmOverloads
@@ -165,23 +166,23 @@ fun myFunction(a: Int = 1, b: Int = 2, c: Int = 3) {
 > Light-weight threads, multiple coroutines can be scheduled to be executed on the same thread
 
 #### Dispatchers
-> responsible for determining which thread or threads the coroutine will run on.
+> responsible for determining which thread the coroutine will run on.
 > - **Dispatchers.Default:** Suitable for CPU-intensive work.
-- **Dispatchers.IO:** Suitable for I/O-bound work, like network or database operations.
-- **Dispatchers.Main:** Typically used in Android applications for UI operations. It represents the main thread of the application.
-- **Dispatchers.Unconfined:** Starts the coroutine in the caller thread, but later resume in the appropriate dispatcher.
+> - **Dispatchers.IO:** Suitable for I/O-bound work, like network or database operations.
+> - **Dispatchers.Main:** Typically used in Android applications for UI operations. It represents the main thread of the application.
+> - **Dispatchers.Unconfined:** Starts the coroutine in the caller thread, but later resume in the appropriate dispatcher.
 
 #### Scope
 > Provides a context for coroutines, allowing you to control their lifecycle. Scopes are essential for managing the lifetime of coroutines, ensuring they are canceled when they are no longer needed to prevent memory leaks.
 > - **GlobalScope:** It is not bound to any specific part of your code and lives as long as your application is running. 
-- **CoroutineScope:** . Tied to a specific part of your application, like an activity or a fragment. When the component is destroyed, all coroutines in its scope are automatically canceled.
+> - **CoroutineScope:** . Tied to a specific part of your application, like an activity or a fragment. When the component is destroyed, all coroutines in its scope are automatically canceled.
 
 #### Builders
 > Used to launch coroutines, These builders start a new coroutine in the specified scope and context.
-- `launch` launches a new coroutine and returns a Job object representing the coroutine. The coroutine runs concurrently with the rest of the program.
-- `async` async is used when you want to perform a computation asynchronously and return a result. It returns a Deferred object that, You can use await() on the Deferred object to get the result.
-- `runBlocking` used to start a new coroutine and blocks the current thread until the coroutine completes.
-- `withContext` used to switch the coroutine's context. It allows you to switch to a different dispatcher or thread for the duration of the provided lambda expression.
-- `coroutineScope` used to create a new coroutine scope. It is similar to runBlocking but does not block the current thread. It suspends the coroutine and allows other tasks to run concurrently.
+> - `launch` launches a new coroutine and returns a Job object representing the coroutine. The coroutine runs concurrently with the rest of the program.
+> - `async` async is used when you want to perform a computation asynchronously and return a result. It returns a Deferred object that, You can use await() on the Deferred object to get the result.
+> - `runBlocking` used to start a new coroutine and blocks the current thread until the coroutine completes.
+> - `withContext` used to switch the coroutine's context. It allows you to switch to a different dispatcher or thread for the duration of the provided lambda expression.
+> - `coroutineScope` used to create a new coroutine scope. It is similar to runBlocking but does not block the current thread. It suspends the coroutine and allows other tasks to run concurrently.
 
 ##### a "deferred" typically refers to an object or concept that represents the result of a computation that might not be available immediately
