@@ -4,7 +4,6 @@
 
 fun countingValleys(steps: Int, path: String): Int {
     var level = 0
-    var prev = 0
     var valleys = 0
 
     path.forEach {
@@ -13,11 +12,9 @@ fun countingValleys(steps: Int, path: String): Int {
             'U' -> level++
         }
         
-        if (prev == 0 && level == -1) {
+        if (it == 'U' && level == 0) {
             valleys++
         }
-        
-        prev = level
     }
     
     return valleys
