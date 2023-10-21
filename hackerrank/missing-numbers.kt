@@ -3,6 +3,21 @@
 // PROBLEM: Missing Numbers
 
 fun missingNumbers(arr: Array<Int>, brr: Array<Int>): Array<Int> {
+    val arr1 = arr.toMutableList()
+    var result = IntArray(Math.abs(arr.size - brr.size))
+    var index = 0
+    for(item in brr) {
+        if(item in arr1) {
+            arr1.remove(item)
+        } else{  
+            result[index] = item
+            index++
+        }
+    } 
+    return result.toSortedSet().toTypedArray()
+}
+
+fun missingNumbers(arr: Array<Int>, brr: Array<Int>): Array<Int> {
     val map = brr.groupBy { it }.mapValues { it.value.size }.toMutableMap()
 
     arr.forEach {
