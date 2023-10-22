@@ -3,6 +3,19 @@
 // PROBLEM: Sherlock and Array
 
 fun balancedSums(arr: Array<Int>): String {
+    var lSum = 0
+    val sum = arr.sum()
+    
+    for (i in 0 ..< arr.size) {
+        val rSum = sum - lSum - arr[i]
+        if (lSum == rSum) return "YES"
+        lSum += arr[i]
+    }
+
+    return "NO"
+}
+
+fun balancedSums(arr: Array<Int>): String {
     val pSum = mutableMapOf<Int, Int>()
     val sSum = mutableMapOf<Int, Int>()
     
