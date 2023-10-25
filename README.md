@@ -17,7 +17,7 @@ Find solutions to common algorithmic problems, categorized by topics such as gre
 - [Greedy Algorithms](./algorithms/greedy/)
 - [Dynamic Programming](./algorithms/dp/)
 - [Searching](./algorithms/searching/)
-- [Sorting](./algorithms/orting/)
+- [Sorting](./algorithms/sorting/)
 - [Other](./algorithms/other/)
   
 
