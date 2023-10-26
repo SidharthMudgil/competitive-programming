@@ -27,7 +27,9 @@ Yet to studied
 ## Coding Patterns
 Explore common coding patterns used in solving algorithmic problems. Understanding these patterns can help you recognize and solve a wide range of problems efficiently.
 
-- [Hashing](./coding-patterns/hashing/)
+- [Hashing](./coding-patterns/HASHING.md/)
+- [Binary Search](./coding-patterns/BINARY-SEARCH.md/)
+- [Dynamic Programming](./coding-patterns/DP.md/)
 
 ## Coding Solutions
 Access solutions to problems from popular coding platforms like CodeChef, Codeforces, LeetCode, HackerRank, and SPOJ. Each directory includes explanations for the problems
