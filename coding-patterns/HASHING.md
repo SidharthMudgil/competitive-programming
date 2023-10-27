@@ -5,3 +5,4 @@
 | CSUMQ - Cumulative Sum Query       | [SPOJ](https://www.spoj.com/problems/CSUMQ/)                                      | [Kotlin](../spoj/CSUMQ.kt)                                  |
 | First Unique Character in a String | [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)     | [Kotlin](../leetcode/387.kt)                                |
 | Find Common Characters             | [Leetcode](https://leetcode.com/problems/find-common-characters/)                 | [Kotlin](../leetcode/1002.kt)                               |
+| Longest Consecutive Sequence       | [Leetcode](https://leetcode.com/problems/longest-consecutive-sequence/)           | [Kotlin](../leetcode/128.kt)                                |
