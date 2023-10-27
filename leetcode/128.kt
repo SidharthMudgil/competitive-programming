@@ -8,13 +8,15 @@ class Solution {
         var res = 0
 
         set.forEach {
-            var cnt = 0
-            var num = it
-            while (set.contains(num)) {
-                cnt++
-                num--
+            if (set.contains(it + 1).not()){
+                var cnt = 0
+                var num = it
+                while (set.contains(num)) {
+                    cnt++
+                    num--
+                }
+                res = maxOf(res, cnt)
             }
-            res = maxOf(res, cnt)
         }
 
         return res
