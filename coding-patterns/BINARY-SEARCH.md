@@ -1,5 +1,6 @@
-| Problem                                                 | Question                                                                                          | Solution                     |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------- |
-| Find First and Last Position of Element in Sorted Array | [Leetcode](https://leetcode.com/problemsfind-first-and-last-position-of-element-in-sorted-array/) | [Kotlin](../leetcode/34.kt)  |
-| Search in Rotated Sorted Array                          | [Leetcode](https://leetcode.com/problems/search-in-rotated-sorted-array/)                         | [Kotlin](../leetcode/33.kt)  |
-| Single Element in a Sorted Array                        | [Leetcode](https://leetcode.com/problems/single-element-in-a-sorted-array/)                       | [Kotlin](../leetcode/540.kt) |
+| Problem                                                 | Question                                                                                          | Solution                                         |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| Find First and Last Position of Element in Sorted Array | [Leetcode](https://leetcode.com/problemsfind-first-and-last-position-of-element-in-sorted-array/) | [Kotlin](../leetcode/34.kt)                      |
+| Search in Rotated Sorted Array                          | [Leetcode](https://leetcode.com/problems/search-in-rotated-sorted-array/)                         | [Kotlin](../leetcode/33.kt)                      |
+| Single Element in a Sorted Array                        | [Leetcode](https://leetcode.com/problems/single-element-in-a-sorted-array/)                       | [Kotlin](../leetcode/540.kt)                     |
+| Find Nth root of M                                      | [Geeksforgeeks](https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1)             | [Java](../geeksforgeeks/find-nth-root-of-m.java) |
