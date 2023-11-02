@@ -133,3 +133,31 @@ OpenSource operating system based on linux kernel primarily used for mobile devi
 | dex code was converted into machine code when we start the app | dex code was converted into machine code during the installtion of app |
 | Low performance | High Performance |
 | Faster Installation | Slow installation |
+
+## Android Testing
+Android testing is an integral part of the Android development process, By running tests we can check for app compatibility, performance, accessibility, and correction.
+
+### Types of testing in Android
+> 1. Functional testing: does my app do what it's supposed to?
+> 1. Performance testing: does it do it quickly and efficiently?
+> 1. Accessibility testing: does it work well with accessibility services?
+> 1. Compatibility testing: does it work well on every device and API level?
+
+### Good testing Strategy
+> In real-world scenarios we've to test each and every line of the code, it is not practically possible but instead, we should maintain a balance between testing speed and reliability. By using a good testing architecture and decoupling classes we can create more smaller tests for specific components of the app.
+
+### Flaky tests
+> Some tests sometimes fail and do not pass all the time due to some runtime conditions or other factors like auto updation, Those tests are called flaky tests.
+
+### Organization of Tests
+> **androidTest** Contains the tests that run on a virtual or physical device. Includes integration, and end-to-end tests where JVM alone can't test the functionality.
+> **test** Contains unit tests that can run locally on JVM.
+
+### What to test
+1. Unit Test
+  - ViewModels, Presenters, Repositories, UseCases, Utility Classes.
+  - Normal Cases, Edge Cases, Boundry Conditions.
+
+2. UI Test
+  - Screen UI tests such as Clicking of buttons, and typing in forms.
+  - User flow tests or navigation test.
