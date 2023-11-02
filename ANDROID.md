@@ -154,10 +154,10 @@ Android testing is an integral part of the Android development process, By runni
 > **test** Contains unit tests that can run locally on JVM.
 
 ### What to test
-1. Unit Test
-  - ViewModels, Presenters, Repositories, UseCases, Utility Classes.
-  - Normal Cases, Edge Cases, Boundry Conditions.
-
-2. UI Test
-  - Screen UI tests such as Clicking of buttons, and typing in forms.
-  - User flow tests or navigation test.
+> Unit Test:
+>  - ViewModels, Presenters, Repositories, UseCases, Utility Classes.
+>  - Normal Cases, Edge Cases, Boundry Conditions.
+>
+> UI Test:
+>  - Screen UI tests such as Clicking of buttons, and typing in forms.
+>  - User flow tests or navigation test.
