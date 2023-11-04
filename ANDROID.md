@@ -165,5 +165,5 @@ Android testing is an integral part of the Android development process, By runni
 ### Local Unit Test
 > Local unit tests are unit tests that run locally on JVM and do not require any physical device, or emulator. They are used to verify the behavior of a small section of the program by checking the results. They are placed in `module-name/src/test/`
 
-### `testImplementation` & `androidTestImplementation`
+### testImplementation and androidTestImplementation
 > Used to add dependencies testImplementation for local tests and androidTestImplementation adds dependencies for Instrumented tests.
