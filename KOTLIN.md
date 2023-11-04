@@ -123,7 +123,7 @@ var first name: String
 		get() = name
 		set(value) { name = value }
 ```
-### intArray vs Array<<a>Int>
+### IntArray vs Array<<a>Int>
 > intArray is of type int[] while Array is of type Integer[], There is no boxing in case of intArray as it directly translates to java primitive array.
 
 ### Reified
