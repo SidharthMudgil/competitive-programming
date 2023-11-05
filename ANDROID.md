@@ -163,7 +163,15 @@ Android testing is an integral part of the Android development process, By runni
 >  - User flow tests or navigation tests.
 
 ### Local Unit Test
-> Local unit tests are unit tests that run locally on JVM and do not require any physical device, or emulator. They are used to verify the behavior of a small section of the program by checking the results. They are placed in `module-name/src/test/`
+> Local unit tests are unit tests that run locally on JVM and do not require any physical device, or emulator. They are used to verify the behavior of a small section of the program by checking the results. They are placed in `module-name/src/test/`. These tests can not interact with Android framework APIs which makes them limited to the variety of tests we can perform.
 
 ### testImplementation and androidTestImplementation
-> Used to add dependencies testImplementation for local tests and androidTestImplementation adds dependencies for Instrumented tests.
+> Used to add dependencies testImplementation for local tests and androidTestImplementation adds dependencies for Instrumented tests. They are placed in `module-name/src/androidTest/java/`.
+
+### Instrumental test
+> Tests that are run on Physical devices or Emulators, and can interact with Android framework APIs which makes them more real than local tests but slower. These are run in the special environment which gives them access to the instance of the `instrumentation` class.
+>
+> PS: UI tests are Instrumental tests
+
+### Instrumentation
+> Base class for implementing instrumentation code. This allows to monitor all of the interactions between the system and the application.
