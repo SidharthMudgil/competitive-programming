@@ -10,6 +10,8 @@ OpenSource operating system based on Linux kernel primarily used for mobile devi
 | ![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/7d2d3efd-ec93-4f9f-b6b5-6359f524529b) | ![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/ec306232-7cf0-4f98-b38a-c38d5426ee53) |
 | ---------------- | --------------- |
 
+> Practice [Question](https://medium.com/@zayed007/android-activity-fragment-lifecycles-most-asked-interview-questions-and-answers-8dcb540bd3e)
+
 ### Intents
 > Messaging objects that are used to send data or perform some actions.
 >
