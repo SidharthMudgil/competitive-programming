@@ -81,14 +81,14 @@ class Math {
 ```
 
 ### Association
-> Represents the general relationship between 2 or more classes, It may be one-to-one, one-to-many, etc. For example in the below code there is one to one relationship between user and address that user lives in address.
+> Represents the general relationship between 2 or more classes, It may be one-to-one, one-to-many, etc. For example, in the code below, there is a one-to-one relationship between the user. The user lives at the address.
 ```
 class Address {}
 class User(name: String, address: Address) {}
 ```
 
 ### Aggregation
-> It is a weak form of association in which an object contains reference to another object, but the reference object exists independently. For example in the code below we can see that both objects are independent and if I delete the tv object the remote object will be still there.
+> It is a weak form of association in which an object contains a reference to another object, but the reference object exists independently. For example in the code below we can see that both objects are independent and if I delete the tv object the remote object will be still there.
 ```
 class Remote
 class TV(remote: Remote)
@@ -100,7 +100,7 @@ fun main() {
 ```
 
 ### Composition
-> It is a strong form of association in which an object contains reference to another object, but the reference object can not exist independently the referenced object has no meaning and purpose on its own. For example in the code below we can see that remote object is dependent on tv and if I delete the tv object the remote object will also be deleted.
+> It is a strong form of association in which an object contains a reference to another object, but the reference object can not exist independently the referenced object has no meaning and purpose on its own. For example in the code below we can see that the remote object is dependent on tv and if I delete the tv object the remote object will also be deleted.
 ```
 class Remote
 class TV {
