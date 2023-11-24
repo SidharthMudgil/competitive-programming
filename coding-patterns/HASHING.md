@@ -17,3 +17,4 @@
 | Subarrays with sum K                                                                                    | [Geeksforgeeks](https://practice.geeksforgeeks.org/problems/subarrays-with-sum-k/1)               | [Java](../geeksforgeeks/subarrays-with-sum-k.java)               |
 | Subarray with given XOR                                                                                 | [Interviewbit](https://www.interviewbit.com/problems/subarray-with-given-xor/)                    | [Java](../interviewbit/subarray-with-given-xor.java)             |
 | Find the Prefix Common Array of Two Arrays | [LeetCode](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) | [Kotlin](../leetcode/2657.kt) |
+| Longest Sub-Array with Sum K | [Geeksforgeeks](https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1) | [Java](../geeksforgeeks/longest-sub-array-with-sum-k.java) |
