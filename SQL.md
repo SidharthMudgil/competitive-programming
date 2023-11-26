@@ -1,6 +1,8 @@
 ## SQL Commands
 This repository contains a collection of SQL problem solutions from various platforms.
 
+## Problems
+
 ### 175. Combine Two Tables
 ```sql
 SELECT p.firstName, p.lastName, city, state 
