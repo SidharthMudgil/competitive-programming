@@ -1,0 +1,3 @@
+| Problem             | Platform                                                      | Solution                     | Company               |
+| ------------------- | ------------------------------------------------------------- | ---------------------------- | --------------------- |
+| Combination Sum III | [LeetCode](https://leetcode.com/problems/combination-sum-iii) | [Kotlin](../leetcode/216.kt) | Goldman Sachs, Amazon |
