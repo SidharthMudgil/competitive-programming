@@ -1,0 +1,3 @@
+| Problem                           | Platform                                                                     | Solution                      | Company       |
+| --------------------------------- | ---------------------------------------------------------------------------- | ----------------------------- | ------------- |
+| Query Kth Smallest Trimmed Number | [LeetCode](https://leetcode.com/problems/query-kth-smallest-trimmed-number/) | [Kotlin](../leetcode/2343.kt) | Goldman Sachs |
