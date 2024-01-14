@@ -47,6 +47,7 @@ Interview Guides: Prepare for technical interviews with comprehensive guides on 
 - [Kotlin Interview Guide](./KOTLIN.md)
 - [OOPs Interview Guide](./OOPS.md)
 - [SQL Interview Guide](./SQL.md)
+- [Low Level Design]()
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
