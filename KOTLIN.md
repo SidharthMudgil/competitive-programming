@@ -85,7 +85,7 @@ abstract class Animal {
 interface Sense {
 	fun smell()
 	fun talk()
-	fun 
+	fun walk()
 }
 ```
 
