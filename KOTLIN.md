@@ -108,7 +108,7 @@ name = "Raju"
 ```
 
 ### lazy keyword
-> Used with immutable non nullable property, Generally used for properties that are computationally expensive. It takes an lambda function as parameter and returns a `lazy` instance. The propery will only be initialized when the property is accessed first time.
+> Used with immutable nullable as well as non nullable property, Generally used for properties that are computationally expensive. It takes an lambda function as parameter and returns a `lazy` instance. The propery will only be initialized when the property is accessed first time.
 ```kotlin
 val password: String by lazy {
 	getPassword()
