@@ -139,6 +139,13 @@ OpenSource operating system based on Linux kernel primarily used for mobile devi
 #### Image Loading Library working
 > So generally we do not cancel tasks like downloading, or bitmap decoding even when we even don't want them and that causes slow loading. To overcome this problem image loading libraries like Glide and others are aware of the lifecycle of activity/fragment cancel all the tasks that are not visible and load only images that are visible to the user. Libraries know about the lifecycle because of the context passed. These libraries also sample the image, for example for an image view 200x200 the library will downsample 2000x2000 to 200x200 so we can get the image required by the view, It also helps with `OutOfMemoryError`.
 
+#### Grabage Collectorworking
+> Garbage collection is the process by which Android programs perform automatic memory management using several GC algorithm e.g Mark and Sweep. So whenever an android application is started, it creates one memory tree considering starting object as tree root. Root create some other objects which can have its reference directly or indirectly, Now other objects are intantiated from these objects resulting in chain of references forming a memory tree.
+>
+> The Garbage collector starts from the tree root and traverse to all the nodes and mark it as `currently in use`, all the unmarked objects are not in use and are eligible for garbage collection.
+>
+> Now in some cases there are some objects that are still unused but marked as used that results in memory leak.
+
 ## Android Testing
 Android testing is an integral part of the Android development process, By running tests we can check for app compatibility, performance, accessibility, and correction.
 
@@ -184,7 +191,7 @@ Android testing is an integral part of the Android development process, By runni
 ## Memory Leaks
 > Memory leaks occurs when app holds on to an object that is no longer needed, and garbage collector can not reclaim the memory by freeing up that object because the object is still reachable.
 
-### Memory Leaks Causes & Prevenention
+### Common Causes & Prevenention
 
 > **Inner Classes and Anonymous Classes**
 >  when inner classes hold references to the enclosing classes, it can cause memory leak. this happens because Non-static inner classes and anonymous classes have an implicit reference to the outer class instance. If the inner class has a longer lifecycle than the outer class, it keeps the outer class in memory longer than necessary.
@@ -215,3 +222,19 @@ Android testing is an integral part of the Android development process, By runni
 > If listeners holds the context of fragment/activity it will cause memory leaks, If required use `parent.context` instead and detaching listeners in `onViewRecycled`.
 > 
 > [medium article](https://medium.com/@naeem0313/top-10-android-memory-leak-causes-and-how-to-avoid-them-b7ea67e716b6)
+> [another article](https://medium.com/android-development-hub/understanding-and-preventing-memory-leaks-in-android-a-comprehensive-guide-75ad5751aa3c)
+
+#### WeakReferences
+> WeakReference wrapper class which instructions to the GC collector that it needs to clear following variable because it has a weak reference with its container so whenever its original scope is no longer available in memory it is flagged to be collected.
+
+#### Impact of Memory leak
+> - whenever memory leak happens there is shortage of memory resulting android calling garbage collector more frequently which ends in resulting lower performance.
+> - GC events are stop-the-world events which means when GC happens, the rendering of UI and processing of events will stop.
+> _When minor GCs will not be able to reclaim the memory, system will force a larger GC to kick off, which pauses the entire application main thread for around 50ms to 100ms. Since, Android has a 16ms drawing window and GC takes long than that, Android will start losing frames and lagging seriously._
+> 
+> - if gc still can't reclaim memory then heap of app will increase which at one time leads to `OutOfMemoryError`.
+> [medium article](https://medium.com/@amritlalsahu5/all-about-memory-leaks-in-android-7c0e5c8d679c)
+
+#### Identifying Memory leaks
+> - Android Profiler
+> - Leak Canary
