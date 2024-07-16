@@ -127,6 +127,8 @@ OpenSource operating system based on Linux kernel primarily used for mobile devi
 
 #### Dependency Injection
 > Dependency injection is a programming technique that makes a class independent of its dependencies. It achieves that by decoupling the usage of an object from its creation. In simple terms Dependency injection is basically providing the objects that an object needs (its dependencies) instead of having it construct them itself.
+>
+> In other words, Inversion of control principles says: class that is using the dependency should not create it. Instead, this dependency should be provided to the dependent. now DI is a pattern that shows how the dependencies are provided to fulfill inversion of control principle.
 
 #### Optimize Recycler View Performance
 > 1. Set a fixed width and height for images.
@@ -145,6 +147,27 @@ OpenSource operating system based on Linux kernel primarily used for mobile devi
 > The Garbage collector starts from the tree root and traverse to all the nodes and mark it as `currently in use`, all the unmarked objects are not in use and are eligible for garbage collection.
 >
 > Now in some cases there are some objects that are still unused but marked as used that results in memory leak.
+
+#### Hilt working
+> Hilt is an Android dependency library that works on the dependency injection technique. It is developed by the Google and is made on the top of Dagger library. Hilts uses `Annotation Processors` to generate code.
+>
+> Annotation processing occurs within the compiler when converting java code to bytecode. 3 important annotations hilt uses are `AndroidEntryPoint`, `InstallIn`, & `HiltAndroidApp`
+>
+> - **HiltAndroidApp**
+> enables injection in your Android application class. It generates a set of components inside of a wrapper class that has the same name as the application class.
+> - **AndroidEntryPoint**
+> enables field injection in your Android classes such as Activities, Fragments, Views, and Services. This generates class necessay for injection. The injection should be done as early as possible.
+> - **InstallIn** 
+> indicate which component a module or entry point should be installed into.
+>
+> [For Better Understanding](https://medium.com/androiddevelopers/mad-skills-series-hilt-under-the-hood-9d89ee227059)
+
+#### Koin working
+> Koin is another popular DI library for android, It follow different approach than Dagger as it follows `Service locator` pattern instead of dependency injection. Koin don't need any `annotations` nor it generates any code because we provide all modules with the `factories` that is used to create instance of classes. The references of all the factories are added to Koin `Instances Register` class. When we use `get` method or `inject` property koin search for respected factory using a key i.e. full class name and creates an instance.
+
+#### Why Koin don't follows DI?
+> Because according to the Dependency Injection pattern, classes should never know where the dependencies come from and should never request for the dependencies themselves.
+> All the dependencies should rather be provided to the class. And because Koin does not meet those criteria, it’s said that instead of following Dependency Injection pattern it rather follows the Service Locator pattern.
 
 ## Android Testing
 Android testing is an integral part of the Android development process, By running tests we can check for app compatibility, performance, accessibility, and correction.
@@ -191,7 +214,7 @@ Android testing is an integral part of the Android development process, By runni
 ## Memory Leaks
 > Memory leaks occurs when app holds on to an object that is no longer needed, and garbage collector can not reclaim the memory by freeing up that object because the object is still reachable.
 
-### Common Causes & Prevenention
+#### Common Causes & Prevenention
 
 > **Inner Classes and Anonymous Classes**
 >  when inner classes hold references to the enclosing classes, it can cause memory leak. this happens because Non-static inner classes and anonymous classes have an implicit reference to the outer class instance. If the inner class has a longer lifecycle than the outer class, it keeps the outer class in memory longer than necessary.
