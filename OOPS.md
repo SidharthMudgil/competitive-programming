@@ -111,3 +111,110 @@ fun main() {
   vak tv = TV()
 }
 ```
+
+### SOLID
+#### Single-responsibility Principle
+> class should have only one responsibility.
+```
+class NotificationManager() {
+    fun sendNotification(notification: String) {}
+}
+
+class UserManager {
+    fun addUser(user: User) {}
+    fun deleteUser(user: User) {}
+}
+```
+
+#### Open-closed Principle
+> classes should be open for extension but closed for modification. In other words, you should be able to extend a class's behavior without modifying its source code.
+```
+interface Shape {
+    fun area(): Double
+}
+
+class Rectangle(val width: Double, val height: Double) : Shape {
+    override fun area() = width * height
+}
+
+class Circle(val radius: Double) : Shape {
+    override fun area() = Math.PI * radius * radius
+}
+
+fun calculateArea(shape: Shape) = shape.area()
+```
+
+#### Liskov Substitution Principle
+> objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
+```
+abstract class Animal {
+    abstract fun makeSound(): String
+}
+
+class Dog : Animal() {
+    override fun makeSound(): String {
+        return "Woof!"
+    }
+}
+
+fun makeAnimalSound(animal: Animal) {
+    println(animal.makeSound())
+}
+
+fun main() {
+    val dog: Animal = Dog()
+    makeAnimalSound(dog)
+}
+```
+
+#### Interface Segregation Principle
+> clients should not be forced to depend on interfaces they do not use. It encourages creating smaller, cohesive interfaces rather than large ones.
+```
+interface Walker {
+    fun walk()
+}
+
+interface Swimmer {
+  fun swim()
+}
+
+class Dog : Walker {
+  override fun walk() {}
+}
+
+class Fish : Swimmer {
+  override fun swim() {}
+}
+```
+
+#### Dependency Inversion Principle
+>  high-level modules should not depend on low-level modules. Both should depend on abstractions, and abstractions should not depend on details.
+```
+interface PaymentProcessor {
+    fun processPayment(amount: Double): Boolean
+}
+
+class PaypalPaymentProcessor : PaymentProcessor {
+    override fun processPayment(amount: Double): Boolean {
+        return true
+    }
+}
+
+class StripePaymentProcessor : PaymentProcessor {
+    override fun processPayment(amount: Double): Boolean {
+        return true
+    }
+}
+
+class PaymentService(private val paymentProcessor: PaymentProcessor) {
+    fun processPayment(amount: Double): Boolean {
+        return paymentProcessor.processPayment(amount)
+    }
+}
+
+fun main() {
+    val paymentProcessor = PaypalPaymentProcessor()
+    val paymentService = PaymentService(paymentProcessor)
+    println(paymentService.processPayment(50.0)) // Process payment via Paypal API
+}
+```
