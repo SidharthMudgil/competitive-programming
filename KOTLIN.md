@@ -186,3 +186,100 @@ fun myFunction(a: Int = 1, b: Int = 2, c: Int = 3) {
 > - `coroutineScope` used to create a new coroutine scope. It is similar to runBlocking but does not block the current thread. It suspends the coroutine and allows other tasks to run concurrently.
 
 ##### a "deferred" typically refers to an object or concept that represents the result of a computation that might not be available immediately
+
+### Flows
+> Stream of data that can be computed asynchronously. Like LiveData and RxJava flows allow observer like pattern meaning collectors get notifies everytime there is change in source.
+
+#### 3 entities of flows
+> - **Producer -** produces data that is added to stream
+> - **Intermediaries (optional) -** can modify each value emitted to stream, or stream itself without consuming the values.
+> - **Collector -** that consumes the emitted values.
+
+#### Components & Lifecycle
+##### Components
+> Flows follows Consumer & Producer pattern.
+```
+public interface Flow<out T> {
+    public suspend fun collect(collector: FlowCollector<T>)
+}
+
+public fun interface FlowCollector<in T> {
+    public suspend fun emit(value: T)
+}
+```
+
+##### Lifecycle
+> - **Launching**
+> A coroutine launches on the Dispatcher we transmitted to CoroutineScope. After that, the following steps take place: Flow Creation, Operators Collection & Data Emission. The final result will be processed on the transmitted Dispatcher.
+> - **Flow creation**
+> Operators are created from top to bottom on the current execution thread. (Similar to the Builder pattern.)
+> - **Operators collection**
+> Performed from the bottom up. Each operator collects the upper one
+> - **Data emission**
+> Starts when all operators have successfully called collect at the top stream. Goes from the top down.
+> - **Cancellation/Completion**.
+> Execution cancelled/Completed
+
+#### Types
+> - **Cold Flow -** It does not start producing values until one starts to collect them. It can have only one subscriber. e.g. flow
+> - **Hot Flow —** It will produce values even if no one is collecting them. e.g. StateFlow, SharedFlow
+
+#### Commonly Used Operators
+> - **Terminal Operators —** They may signal completion of the stream or provide a way to collect or consume the elements emitted by the stream. e.g. collect
+> - **Intermediate Operators —**  Intermediate operators transform the elements emitted by the stream or flow into new streams or modified values. e.g. map, filter.
+
+#### Flows vs LiveData
+> ![alt text](image.png)
+
+#### Stateflow
+> - It is a hot flow.
+> - Needs an initial value.
+> - only emitted value is last known value.
+> - can be created using `MutableStateFlow<>()`
+> - value property allows us to check the current value.
+> - does not emit consecutive repeated values. When the value differs from the previous item, it emits the value.
+
+#### Sharedflow
+> - It is a hot flow.
+> - does not need an initial value.
+> - can be created using `MutableSharedFlow<>()`
+> - there is no value property.
+> - emit value even if consecutive values are same.
+> - useful for broadcasting events that happen inside an application to subscribers that can come and go.
+
+#### collect & collectLatest
+> `collect` is used to sequentially collect emitted values from a flow.
+> `collectLatest` cancels the previous collection coroutine when a new value is emitted, ensuring only the latest value processing is active.
+
+#### stateIn and shareIn
+> - shareIn and stateIn operators convert cold flows into hot flows.
+> - The shareIn operator returns a SharedFlow instance whereas stateIn returns a StateFlow.
+
+##### shareIn
+> stateIn contains 3 parameters scope, started and initialValue.
+> - **scope:** the coroutine scope to define.
+> - **started:** SharingStarted strategy
+> 	- **Eagerly:-** Sharing is started immediately and never stops.
+> 	- **Lazily:** Sharing is started when the first subscriber appears and never stops.
+> 	- **WhileSubscribed:** Sharing is started when the first subscriber appears, immediately stops when the last subscriber disappears (by default), keeping the replay cache forever (by default).
+> - **initialValue:** initial value.
+```
+val stateFlow: StateFlow<SomeState> = someFlow
+    .stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5000),
+        initialValue = someInitialValue,
+    )
+```
+
+##### stateIn
+> shareIn contains the same three parameters as stateIn, but instead of initialValue, it has a replay parameter.
+> - **replay:** how many times to emit the value
+```
+val sharedFlow: SharedFlow<SomeState> = someFlow
+    .shareIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5000),
+        replay = 1,
+    )
+```
