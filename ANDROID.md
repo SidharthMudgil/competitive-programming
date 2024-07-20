@@ -101,7 +101,7 @@ OpenSource operating system based on Linux kernel primarily used for mobile devi
 
 #### MVVM
 > MVVM is an Architectural design pattern that is used to separate business logic and the presentation logic of the UI.
-> - **Model:** main logic of a program that contains that and is retrieved by the ViewModel.
+> - **Model:** main logic of a program that contains data and is retrieved by the ViewModel.
 > - **ViewModel:** defines properties and commands that can be used to bind data with views.
 > - **View:** responsible for defining the layout, structure, and appearance of the UI.
 ![image](https://github.com/SidharthMudgil/competitive-programming/assets/68889544/17997910-5ed9-4f28-ad93-b034c745c858)
