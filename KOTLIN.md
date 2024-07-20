@@ -283,3 +283,51 @@ val sharedFlow: SharedFlow<SomeState> = someFlow
         replay = 1,
     )
 ```
+
+#### Flow Builders
+##### flowOf
+```
+flowOf(4, 2, 5, 1, 7)
+.collect {
+    
+}
+```
+##### asFlow
+```
+(1..5).asFlow()
+.collect {
+    
+}
+```
+##### flow
+```
+flow {
+    (0..10).forEach {
+        emit(it)
+    }
+}.collect {
+    
+}
+```
+##### channelFlow
+```
+channelFlow {
+    (0..10).forEach {
+        send(it)
+    }
+}.collect {
+    
+}
+```
+
+#### flowOn
+> flowOn Operator allows to control the thread on which the task will be done.
+```
+val flow = flow {
+    (0..10).forEach {
+        delay(500)
+        emit(it)
+    }
+}
+.flowOn(Dispatchers.Default)
+```
