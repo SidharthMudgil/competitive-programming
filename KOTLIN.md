@@ -133,7 +133,7 @@ var first name: String
 > process of conveting a primitive data type to its wrapper class. The opposite is called unboxing.
 ```kotlin
 val x: Int = 1
-val x: Intefer = x //boxing will take plave
+val x: Integer = x //boxing will take plave
 ```
 
 ### Scoped function
