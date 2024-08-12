@@ -138,7 +138,7 @@ val x: Integer = x //boxing will take plave
 
 ### Scoped function
 > Special type of function in kotlin that define a specific scope in which we can operate on the object.
-[![https://i.stack.imgur.com/aLUv7.png](https://i.stack.imgur.com/aLUv7.png "https://i.stack.imgur.com/aLUv7.png")](https://i.stack.imgur.com/aLUv7.png "https://i.stack.imgur.com/aLUv7.png")
+![](https://www.alexhwoods.com/posts/scope-functions/aLUv7-1.png)
 [Explanation](https://stackoverflow.com/a/45978893/16177121)
 
 ### suspend function
