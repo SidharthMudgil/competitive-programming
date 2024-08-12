@@ -255,7 +255,7 @@ public fun interface FlowCollector<in T> {
 > - shareIn and stateIn operators convert cold flows into hot flows.
 > - The shareIn operator returns a SharedFlow instance whereas stateIn returns a StateFlow.
 
-##### shareIn
+##### stateIn
 > stateIn contains 3 parameters scope, started and initialValue.
 > - **scope:** the coroutine scope to define.
 > - **started:** SharingStarted strategy
@@ -272,7 +272,7 @@ val stateFlow: StateFlow<SomeState> = someFlow
     )
 ```
 
-##### stateIn
+##### shareIn
 > shareIn contains the same three parameters as stateIn, but instead of initialValue, it has a replay parameter.
 > - **replay:** how many times to emit the value
 ```
