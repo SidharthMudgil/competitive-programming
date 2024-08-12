@@ -60,7 +60,7 @@ OpenSource operating system based on Linux kernel primarily used for mobile devi
 > 1. **Content Providers**
 
 #### Context
-> Context of the current state of the application/object. It allows access to application-specific resources and classes, as well as up-calls for application-level operations, such as launching activities, broadcasting and receiving intents, etc.
+> Context is the current state of the application/object. It allows access to application-specific resources and classes, as well as up-calls for application-level operations, such as launching activities, broadcasting and receiving intents, etc.
 
 #### DDMS
 > Dalvik Debug Monitor Server. is a tool that allows developers to monitor and debug Android applications running on emulators or connected devices.
