@@ -1,5 +1,5 @@
 # Competitive Programming
-_🤔🤔_
+_🤔_
 
 Welcome to the Competitive Programming repository! This repository contains a collection of data structures, algorithms, coding solutions, and interview preparation guides aimed at helping programmers excel in competitive programming competitions.
 
