@@ -52,7 +52,7 @@ OpenSource operating system based on Linux kernel primarily used for mobile devi
 > - **Android libraries:** provide a set of APIs that developers can use to develop Android apps.
 > - **Android system apps:** pre-installed apps that come with every Android device.
 
-#### Android Application Architecture
+#### Android Application Components
 > 1. **Services**
 > 1. **Activities**
 > 1. **Fragments**
@@ -261,3 +261,4 @@ Android testing is an integral part of the Android development process, By runni
 #### Identifying Memory leaks
 > - Android Profiler
 > - Leak Canary
+
