@@ -112,6 +112,7 @@ OpenSource operating system based on Linux kernel primarily used for mobile devi
 > - **ViewHolder:** helper class that draws layouts for individual items
 > - **LayoutManager:** used to position items within recycler views.
 > - **ItemAnimator:** class to change the animation for the recycler view.
+> [More Detailed](https://medium.com/1mgofficial/how-recyclerview-works-internally-71290de5d2c4)
 
 #### Room Database
 > Android library that is part of jetpack components used for persistent storage that is made on the top of the SQLite database.
@@ -261,4 +262,5 @@ Android testing is an integral part of the Android development process, By runni
 #### Identifying Memory leaks
 > - Android Profiler
 > - Leak Canary
+
 
