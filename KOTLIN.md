@@ -122,8 +122,6 @@ var firstName: String = ""
     get() = field
     set(value) { field = value } // this field is the backing field
 ```
-### IntArray vs Array<<a>Int>
-> intArray is of type int[] while Array is of type Integer[], There is no boxing in case of intArray as it directly translates to java primitive array.
 
 ### Reified
 > [explanation with example](https://stackoverflow.com/a/66801688/16177121 "explanation with example")
@@ -141,7 +139,7 @@ val x: Integer = x //boxing will take plave
 [Explanation](https://stackoverflow.com/a/45978893/16177121)
 
 ### suspend function
-> Functions that are used to perform asynchronous tasks, They do no block the main thread and can be paused and resumed at later time. They can only be called using suspend functions or from Coroutine.
+> A suspend function in Kotlin is a function that can pause a coroutine and resume it later. While the coroutine is paused, its thread is free to run other work. They can only be called using suspend functions or from Coroutine.
 ```kotlin
 suspend fun download()
 ```
@@ -161,7 +159,7 @@ fun myFunction(a: Int = 1, b: Int = 2, c: Int = 3) {
 ```
 
 ### Coroutine
-> Feature in programming languages that allows you to write asynchronous, non-blocking code in a sequential and synchronous manner.
+> A coroutine in Kotlin is a lightweight unit of execution that can suspend and resume from where it left off. While it’s suspended, the underlying thread is free to run other work.
 > Light-weight threads, multiple coroutines can be scheduled to be executed on the same thread
 
 #### Dispatchers
@@ -193,31 +191,6 @@ fun myFunction(a: Int = 1, b: Int = 2, c: Int = 3) {
 > - **Producer -** produces data that is added to stream
 > - **Intermediaries (optional) -** can modify each value emitted to stream, or stream itself without consuming the values.
 > - **Collector -** that consumes the emitted values.
-
-#### Components & Lifecycle
-##### Components
-> Flows follows Consumer & Producer pattern.
-```
-public interface Flow<out T> {
-    public suspend fun collect(collector: FlowCollector<T>)
-}
-
-public fun interface FlowCollector<in T> {
-    public suspend fun emit(value: T)
-}
-```
-
-##### Lifecycle
-> - **Launching**
-> A coroutine launches on the Dispatcher we transmitted to CoroutineScope. After that, the following steps take place: Flow Creation, Operators Collection & Data Emission. The final result will be processed on the transmitted Dispatcher.
-> - **Flow creation**
-> Operators are created from top to bottom on the current execution thread. (Similar to the Builder pattern.)
-> - **Operators collection**
-> Performed from the bottom up. Each operator collects the upper one
-> - **Data emission**
-> Starts when all operators have successfully called collect at the top stream. Goes from the top down.
-> - **Cancellation/Completion**.
-> Execution cancelled/Completed
 
 #### Types
 > - **Cold Flow -** It does not start producing values until one starts to collect them. It can have only one subscriber. e.g. flow
