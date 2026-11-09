@@ -6,10 +6,9 @@ Welcome to the Competitive Programming repository! This repository contains a co
 ## Table of Contents
 - [Data Structures](./data-structures/README.md)
 - [Algorithms](#algorithms)
-- [Maths & Aptitude](#maths-and-aptitude)
 - [Coding Patterns](#coding-patterns)
 - [Coding Solutions](#coding-solutions)
-- [Interview Preparation](#interview-preparation)
+- [Mobile Preparation](#mobile-preparation)
 
 ## Algorithms
 Find solutions to common algorithmic problems, categorized by topics such as greedy algorithms, dynamic programming, searching, and sorting.
@@ -20,9 +19,6 @@ Find solutions to common algorithmic problems, categorized by topics such as gre
 - [Sorting](./algorithms/sorting/)
 - [Other](./algorithms/other/)
   
-
-## Maths and Aptitude
-Yet to studied
 
 ## Coding Patterns
 Explore common coding patterns used in solving algorithmic problems. Understanding these patterns can help you recognize and solve a wide range of problems efficiently.
@@ -40,14 +36,10 @@ Access solutions to problems from popular coding platforms like CodeChef, Codefo
 - [HackerRank](./hackerrank/)
 - [SPOJ](./spoj/)
 
-## Interview Preparation
-Interview Guides: Prepare for technical interviews with comprehensive guides on core topics such as Object-Oriented Programming (OOPs), database management (DBMS), Android, and Kotlin.
-
+## Mobile Preparation
 - [Android Interview Guide](./ANDROID.md)
 - [Kotlin Interview Guide](./KOTLIN.md)
 - [OOPs Interview Guide](./OOPS.md)
-- [SQL Interview Guide](./SQL.md)
-- [Low Level Design]()
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
