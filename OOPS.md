@@ -81,10 +81,12 @@ class Math {
 ```
 
 ### Association
-> Represents the general relationship between 2 or more classes, It may be one-to-one, one-to-many, etc. For example, in the code below, there is a one-to-one relationship between the user. The user lives at the address.
+> Represents the general relationship between 2 or more classes, Tells that 2 objects are related and can interact while each can exist independently.
 ```
 class Address {}
-class User(name: String, address: Address) {}
+class User(name: String) {
+  print (address: Address)
+}
 ```
 
 ### Aggregation
