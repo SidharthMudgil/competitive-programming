@@ -116,12 +116,11 @@ val password: String by lazy {
 ```
 
 ### Backing Field
-> A backing field in Kotlin is a field that is automatically created by the compiler for a property that does not have a custom getter or setter
+> A backing field is where Kotlin stores a property’s value. Inside a custom getter or setter, field lets you access that stored value directly.
 ```kotlin
-// var first name: String will generate default getter and setter
-var first name: String
-		get() = name
-		set(value) { name = value }
+var firstName: String = ""
+    get() = field
+    set(value) { field = value } // this field is the backing field
 ```
 ### IntArray vs Array<<a>Int>
 > intArray is of type int[] while Array is of type Integer[], There is no boxing in case of intArray as it directly translates to java primitive array.
